@@ -80,3 +80,938 @@ topTaskToBaseTask: 2
  INFO (GeometrySurfaceUtils:227) - added volumeRegion(void2) []{}
  INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void1) []{}
  INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void2) []{}
+ INFO (SolverHandler:430) - Solver: cbit.vcell.solvers.FVSolverStandalone@3316aef6 []{}
+ INFO (SolverHandler:431) - Status: Finished: SOLVER_FINISHED:completed []{}
+ WARN (SolverHandler:440) - Solver results are not compatible with CSV format.  []{}
+ INFO (SolverHandler:477) - Succesful execution: Model '_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units_TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex_SBML_units.sedml_Spatial' Task '11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan'. []{}
+ INFO (SolverHandler:489) - Running simulation 11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan, 991744 ms []{}
+-----------------------------------------------------------------------------------------------------
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=0, numPixel=8072, imageValue=0) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(chromosome0) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=1, numPixel=60, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void1) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=2, numPixel=60, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void2) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void1) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void2) []{}
+ INFO (SolverHandler:430) - Solver: cbit.vcell.solvers.FVSolverStandalone@79cdfb12 []{}
+ INFO (SolverHandler:431) - Status: Finished: SOLVER_FINISHED:completed []{}
+ WARN (SolverHandler:440) - Solver results are not compatible with CSV format.  []{}
+ INFO (SolverHandler:477) - Succesful execution: Model '_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units_TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex_SBML_units.sedml_Spatial' Task '11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan'. []{}
+ INFO (SolverHandler:489) - Running simulation 11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan, 1019558 ms []{}
+-----------------------------------------------------------------------------------------------------
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=0, numPixel=8072, imageValue=0) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(chromosome0) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=1, numPixel=60, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void1) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=2, numPixel=60, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void2) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void1) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void2) []{}
+ INFO (SolverHandler:430) - Solver: cbit.vcell.solvers.FVSolverStandalone@7fb44edb []{}
+ INFO (SolverHandler:431) - Status: Finished: SOLVER_FINISHED:completed []{}
+ WARN (SolverHandler:440) - Solver results are not compatible with CSV format.  []{}
+ INFO (SolverHandler:477) - Succesful execution: Model '_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units_TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex_SBML_units.sedml_Spatial' Task '11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan'. []{}
+ INFO (SolverHandler:489) - Running simulation 11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan, 1123962 ms []{}
+-----------------------------------------------------------------------------------------------------
+ INFO (SolverHandler:613) - Ran 4 simulation jobs for 1 biomodels. []{}
+ INFO (SedmlJob:298) - Generating outputs...  []{}
+ INFO (SedmlJob:388) - Generating HDF5 file...  []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:159) - We did not get any entries in the final data set. This may mean a problem has been encountered. []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: repTsk_0_1_0 []{}
+ WARN (NonspatialResultsConverter:159) - We did not get any entries in the final data set. This may mean a problem has been encountered. []{}
+ INFO (SedmlJob:339) - Archiving result files []{}
+ERROR (RunUtils:446) - No PDF files found, skipping archiving `plots.zip` files []{}
+ERROR (RunUtils:446) - No CSV files found, skipping archiving `reports.zip` files []{}
+ INFO (SedmlJob:346) - SED-ML : TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex_SBML_units.sedml successfully completed []{}
+ INFO (ExecutionJob:144) - Processing of SedML succeeded.
+org.vcell.cli.run.SedmlStatistics@c148d8d []{}
+ INFO (Hdf5Writer:44) - Creating hdf5 file `reports.h5` in/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5Writer:117) - HDF5 file successfully written to. []{}
+ INFO (ExecutionJob:173) - Omex _04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units.omex processing completed (5251s) []{}
+Loading modules...
+To use your local R packages in RStudio, run:
+echo "R_LIBS_USER=~/R/goolf/4.3" > ~/.Renviron
+Finished loading modules...
+Activate conda environment...
+Convert reports.h5 to csvs
+/sfs/qumulo/qhome/xpz5km/cli_VCell/hdf5_converter_Rivanna.py:1: DeprecationWarning: 
+Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
+(to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
+but was not found to be installed on your system.
+If this would cause problems for you,
+please provide us feedback at https://github.com/pandas-dev/pandas/issues/54466
+        
+  import pandas as pd
+Using default species list of length 37
+_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv
+_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan
+5D array found, reading in parameter scan
+Haspini
+Haspina
+Plk1a
+H3
+pH3
+pKnl1
+pKnl1_Bub1a
+Bub1a
+H2A
+pH2A
+Bub1a_his
+Sgo1
+pH2A_Sgo1
+CPCi
+pH3_CPCi
+pH2A_Sgo1_CPCi
+pH2A_Sgo1_pH3_CPCi
+CPCa
+pH3_CPCa
+pH2A_Sgo1_CPCa
+pH2A_Sgo1_pH3_CPCa
+Plk1i
+Mps1i
+pMps1i
+Mps1a
+pMps1a
+Ndc80
+pNdc80
+Ndc80_Mps1i
+Ndc80_pMps1i
+pNdc80_Mps1i
+pNdc80_pMps1i
+Ndc80_Mps1a
+Ndc80_pMps1a
+pNdc80_Mps1a
+pNdc80_pMps1a
+Knl1
+Haspini
+Haspina
+Plk1a
+H3
+pH3
+pKnl1
+pKnl1_Bub1a
+Bub1a
+H2A
+pH2A
+Bub1a_his
+Sgo1
+pH2A_Sgo1
+CPCi
+pH3_CPCi
+pH2A_Sgo1_CPCi
+pH2A_Sgo1_pH3_CPCi
+CPCa
+pH3_CPCa
+pH2A_Sgo1_CPCa
+pH2A_Sgo1_pH3_CPCa
+Plk1i
+Mps1i
+pMps1i
+Mps1a
+pMps1a
+Ndc80
+pNdc80
+Ndc80_Mps1i
+Ndc80_pMps1i
+pNdc80_Mps1i
+pNdc80_pMps1i
+Ndc80_Mps1a
+Ndc80_pMps1a
+pNdc80_Mps1a
+pNdc80_pMps1a
+Knl1
+Haspini
+Haspina
+Plk1a
+H3
+pH3
+pKnl1
+pKnl1_Bub1a
+Bub1a
+H2A
+pH2A
+Bub1a_his
+Sgo1
+pH2A_Sgo1
+CPCi
+pH3_CPCi
+pH2A_Sgo1_CPCi
+pH2A_Sgo1_pH3_CPCi
+CPCa
+pH3_CPCa
+pH2A_Sgo1_CPCa
+pH2A_Sgo1_pH3_CPCa
+Plk1i
+Mps1i
+pMps1i
+Mps1a
+pMps1a
+Ndc80
+pNdc80
+Ndc80_Mps1i
+Ndc80_pMps1i
+pNdc80_Mps1i
+pNdc80_pMps1i
+Ndc80_Mps1a
+Ndc80_pMps1a
+pNdc80_Mps1a
+pNdc80_pMps1a
+Knl1
+Processing took  8.580232620239258  seconds
+/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+Bus n/a: changing state UNSET → OPENING
+Bus n/a: changing state OPENING → AUTHENTICATING
+Bus n/a: changing state AUTHENTICATING → HELLO
+Sent message type=method_call sender=n/a destination=org.freedesktop.DBus path=/org/freedesktop/DBus interface=org.freedesktop.DBus member=Hello cookie=1 reply_cookie=0 signature=n/a error-name=n/a error-message=n/a
+Got message type=method_return sender=org.freedesktop.DBus destination=:1.12246 path=n/a interface=n/a member=n/a cookie=1 reply_cookie=1 signature=s error-name=n/a error-message=n/a
+Bus n/a: changing state HELLO → RUNNING
+Sent message type=method_call sender=n/a destination=org.freedesktop.timedate1 path=/org/freedesktop/timedate1 interface=org.freedesktop.DBus.Properties member=GetAll cookie=2 reply_cookie=0 signature=s error-name=n/a error-message=n/a
+Got message type=method_return sender=:1.12247 destination=:1.12246 path=n/a interface=n/a member=n/a cookie=24 reply_cookie=2 signature=a{sv} error-name=n/a error-message=n/a
+Bus n/a: changing state RUNNING → CLOSED
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ lemon::%||%()    masks purrr::%||%()
+✖ dplyr::combine() masks gridExtra::combine()
+✖ dplyr::filter()  masks stats::filter()
+✖ dplyr::lag()     masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+Using poppler version 20.11.0
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] TRUE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] TRUE
+
+[[14]]
+[1] TRUE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/plots"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/"
+[1] "CPCa"               "pH2A_Sgo1_CPCa"     "pH3_CPCa"          
+[4] "pH2A_Sgo1_pH3_CPCa" "CPCi"               "pH2A_Sgo1_CPCi"    
+[7] "pH3_CPCi"           "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH2A"               "pH2A_Sgo1"          "pH2A_Sgo1_CPCa"    
+[4] "pH2A_Sgo1_CPCi"     "pH2A_Sgo1_pH3_CPCi" "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH3"                "pH3_CPCa"           "pH3_CPCi"          
+[4] "pH2A_Sgo1_pH3_CPCa" "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Can't get line plots!
+<error/rlang_error>
+Error in `select()`:
+! Problem while evaluating `all_of(order(highlight_active_ic, decreasing = TRUE))[1:n_highlight]`.
+Caused by error in `xtfrm.data.frame()`:
+! cannot xtfrm data frames
+---
+Backtrace:
+     ▆
+  1. ├─global save_plots(...)
+  2. │ ├─base::tryCatch(...)
+  3. │ │ └─base (local) tryCatchList(expr, classes, parentenv, handlers)
+  4. │ │   └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+  5. │ │     └─base (local) doTryCatch(return(expr), name, parentenv, handler)
+  6. │ └─global all_plot(...)
+  7. │   └─filtered_active_ic %>% ...
+  8. ├─dplyr::select(., all_of(order(highlight_active_ic, decreasing = TRUE))[1:n_highlight])
+  9. ├─dplyr:::select.data.frame(., all_of(order(highlight_active_ic, decreasing = TRUE))[1:n_highlight])
+ 10. │ └─tidyselect::eval_select(expr(c(...)), data = .data, error_call = error_call)
+ 11. │   └─tidyselect:::eval_select_impl(...)
+ 12. │     ├─tidyselect:::with_subscript_errors(...)
+ 13. │     │ └─rlang::try_fetch(...)
+ 14. │     │   └─base::withCallingHandlers(...)
+ 15. │     └─tidyselect:::vars_select_eval(...)
+ 16. │       └─tidyselect:::walk_data_tree(expr, data_mask, context_mask)
+ 17. │         └─tidyselect:::eval_c(expr, data_mask, context_mask)
+ 18. │           └─tidyselect:::reduce_sels(node, data_mask, context_mask, init = init)
+ 19. │             └─tidyselect:::walk_data_tree(new, data_mask, context_mask)
+ 20. │               └─tidyselect:::eval_context(expr, context_mask, call = error_call)
+ 21. │                 ├─tidyselect:::with_chained_errors(...)
+ 22. │                 │ └─rlang::try_fetch(...)
+ 23. │                 │   ├─base::tryCatch(...)
+ 24. │                 │   │ └─base (local) tryCatchList(expr, classes, parentenv, handlers)
+ 25. │                 │   │   └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+ 26. │                 │   │     └─base (local) doTryCatch(return(expr), name, parentenv, handler)
+ 27. │                 │   └─base::withCallingHandlers(...)
+ 28. │                 └─rlang::eval_tidy(as_quosure(expr, env), context_mask)
+ 29. ├─tidyselect::all_of(order(highlight_active_ic, decreasing = TRUE))
+ 30. │ └─tidyselect:::as_indices_impl(x, vars = vars, strict = TRUE)
+ 31. └─base::order(highlight_active_ic, decreasing = TRUE)
+ 32.   └─base::lapply(z, function(x) if (is.object(x)) as.vector(xtfrm(x)) else x)
+ 33.     └─base (local) FUN(X[[i]], ...)
+ 34.       ├─base::as.vector(xtfrm(x))
+ 35.       ├─base::xtfrm(x)
+ 36.       └─base::xtfrm.data.frame(x)
+ 37.         └─base::stop("cannot xtfrm data frames")
+total: 25.882 sec elapsed
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+Bus n/a: changing state UNSET → OPENING
+Bus n/a: changing state OPENING → AUTHENTICATING
+Bus n/a: changing state AUTHENTICATING → HELLO
+Sent message type=method_call sender=n/a destination=org.freedesktop.DBus path=/org/freedesktop/DBus interface=org.freedesktop.DBus member=Hello cookie=1 reply_cookie=0 signature=n/a error-name=n/a error-message=n/a
+Got message type=method_return sender=org.freedesktop.DBus destination=:1.12249 path=n/a interface=n/a member=n/a cookie=1 reply_cookie=1 signature=s error-name=n/a error-message=n/a
+Bus n/a: changing state HELLO → RUNNING
+Sent message type=method_call sender=n/a destination=org.freedesktop.timedate1 path=/org/freedesktop/timedate1 interface=org.freedesktop.DBus.Properties member=GetAll cookie=2 reply_cookie=0 signature=s error-name=n/a error-message=n/a
+Got message type=method_return sender=:1.12247 destination=:1.12249 path=n/a interface=n/a member=n/a cookie=33 reply_cookie=2 signature=a{sv} error-name=n/a error-message=n/a
+Bus n/a: changing state RUNNING → CLOSED
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ lemon::%||%()    masks purrr::%||%()
+✖ dplyr::combine() masks gridExtra::combine()
+✖ dplyr::filter()  masks stats::filter()
+✖ dplyr::lag()     masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+Using poppler version 20.11.0
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] TRUE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] TRUE
+
+[[14]]
+[1] TRUE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/plots"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/"
+[1] "CPCa"               "pH2A_Sgo1_CPCa"     "pH3_CPCa"          
+[4] "pH2A_Sgo1_pH3_CPCa" "CPCi"               "pH2A_Sgo1_CPCi"    
+[7] "pH3_CPCi"           "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH2A"               "pH2A_Sgo1"          "pH2A_Sgo1_CPCa"    
+[4] "pH2A_Sgo1_CPCi"     "pH2A_Sgo1_pH3_CPCi" "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH3"                "pH3_CPCa"           "pH3_CPCi"          
+[4] "pH2A_Sgo1_pH3_CPCa" "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Converting page 1 to CPC_plot_1.png... done!
+Converting page 1 to Mps1_plot_1.png... done!
+Converting page 1 to Haspin_Plk1_species_plot_1.png... done!
+Converting page 1 to pH3_species_plot_1.png... done!
+Converting page 1 to pH2A_species_plot_1.png... done!
+Converting page 1 to H2A & H3_plot_1.png... done!
+Converting page 1 to Bub1a_pKnl1_species_plot_1.png... done!
+total: 24.755 sec elapsed
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+Bus n/a: changing state UNSET → OPENING
+Bus n/a: changing state OPENING → AUTHENTICATING
+Bus n/a: changing state AUTHENTICATING → HELLO
+Sent message type=method_call sender=n/a destination=org.freedesktop.DBus path=/org/freedesktop/DBus interface=org.freedesktop.DBus member=Hello cookie=1 reply_cookie=0 signature=n/a error-name=n/a error-message=n/a
+Got message type=method_return sender=org.freedesktop.DBus destination=:1.12252 path=n/a interface=n/a member=n/a cookie=1 reply_cookie=1 signature=s error-name=n/a error-message=n/a
+Bus n/a: changing state HELLO → RUNNING
+Sent message type=method_call sender=n/a destination=org.freedesktop.timedate1 path=/org/freedesktop/timedate1 interface=org.freedesktop.DBus.Properties member=GetAll cookie=2 reply_cookie=0 signature=s error-name=n/a error-message=n/a
+Got message type=method_return sender=:1.12247 destination=:1.12252 path=n/a interface=n/a member=n/a cookie=42 reply_cookie=2 signature=a{sv} error-name=n/a error-message=n/a
+Bus n/a: changing state RUNNING → CLOSED
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ lemon::%||%()    masks purrr::%||%()
+✖ dplyr::combine() masks gridExtra::combine()
+✖ dplyr::filter()  masks stats::filter()
+✖ dplyr::lag()     masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+Using poppler version 20.11.0
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] TRUE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] TRUE
+
+[[14]]
+[1] TRUE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/plots"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/"
+[1] "CPCa"               "pH2A_Sgo1_CPCa"     "pH3_CPCa"          
+[4] "pH2A_Sgo1_pH3_CPCa" "CPCi"               "pH2A_Sgo1_CPCi"    
+[7] "pH3_CPCi"           "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH2A"               "pH2A_Sgo1"          "pH2A_Sgo1_CPCa"    
+[4] "pH2A_Sgo1_CPCi"     "pH2A_Sgo1_pH3_CPCi" "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH3"                "pH3_CPCa"           "pH3_CPCi"          
+[4] "pH2A_Sgo1_pH3_CPCa" "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Converting page 1 to CPC_plot_1.png... done!
+Converting page 1 to Mps1_plot_1.png... done!
+Converting page 1 to Haspin_Plk1_species_plot_1.png... done!
+Converting page 1 to pH3_species_plot_1.png... done!
+Converting page 1 to pH2A_species_plot_1.png... done!
+Converting page 1 to H2A & H3_plot_1.png... done!
+Converting page 1 to Bub1a_pKnl1_species_plot_1.png... done!
+total: 24.579 sec elapsed
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+Bus n/a: changing state UNSET → OPENING
+Bus n/a: changing state OPENING → AUTHENTICATING
+Bus n/a: changing state AUTHENTICATING → HELLO
+Sent message type=method_call sender=n/a destination=org.freedesktop.DBus path=/org/freedesktop/DBus interface=org.freedesktop.DBus member=Hello cookie=1 reply_cookie=0 signature=n/a error-name=n/a error-message=n/a
+Got message type=method_return sender=org.freedesktop.DBus destination=:1.12253 path=n/a interface=n/a member=n/a cookie=1 reply_cookie=1 signature=s error-name=n/a error-message=n/a
+Bus n/a: changing state HELLO → RUNNING
+Sent message type=method_call sender=n/a destination=org.freedesktop.timedate1 path=/org/freedesktop/timedate1 interface=org.freedesktop.DBus.Properties member=GetAll cookie=2 reply_cookie=0 signature=s error-name=n/a error-message=n/a
+Got message type=method_return sender=:1.12247 destination=:1.12253 path=n/a interface=n/a member=n/a cookie=51 reply_cookie=2 signature=a{sv} error-name=n/a error-message=n/a
+Bus n/a: changing state RUNNING → CLOSED
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ lemon::%||%()    masks purrr::%||%()
+✖ dplyr::combine() masks gridExtra::combine()
+✖ dplyr::filter()  masks stats::filter()
+✖ dplyr::lag()     masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+Using poppler version 20.11.0
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] TRUE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] TRUE
+
+[[14]]
+[1] TRUE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/plots"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/"
+[1] "CPCa"               "pH2A_Sgo1_CPCa"     "pH3_CPCa"          
+[4] "pH2A_Sgo1_pH3_CPCa" "CPCi"               "pH2A_Sgo1_CPCi"    
+[7] "pH3_CPCi"           "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH2A"               "pH2A_Sgo1"          "pH2A_Sgo1_CPCa"    
+[4] "pH2A_Sgo1_CPCi"     "pH2A_Sgo1_pH3_CPCi" "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH3"                "pH3_CPCa"           "pH3_CPCi"          
+[4] "pH2A_Sgo1_pH3_CPCa" "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Converting page 1 to CPC_plot_1.png... done!
+Converting page 1 to Mps1_plot_1.png... done!
+Converting page 1 to Haspin_Plk1_species_plot_1.png... done!
+Converting page 1 to pH3_species_plot_1.png... done!
+Converting page 1 to pH2A_species_plot_1.png... done!
+Converting page 1 to H2A & H3_plot_1.png... done!
+Converting page 1 to Bub1a_pKnl1_species_plot_1.png... done!
+total: 24.588 sec elapsed
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
