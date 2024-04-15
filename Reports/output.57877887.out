@@ -1,0 +1,71 @@
+To use your local R packages in RStudio, run:
+echo "R_LIBS_USER=~/R/goolf/4.3" > ~/.Renviron
+mkdir: cannot create directory ‘/scratch/xpz5km/vcell_out/_10_16_23’: File exists
+Traceback (most recent call last):
+  File "/sfs/qumulo/qhome/xpz5km/cli_VCell/hdf5_converter_Rivanna.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml/
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] FALSE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] FALSE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] FALSE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] FALSE
+
+[[9]]
+[1] FALSE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] FALSE
+
+[[13]]
+[1] FALSE
+
+[[14]]
+[1] FALSE
+
+[[15]]
+[1] FALSE
+
+[[16]]
+[1] FALSE
+
+[[17]]
+[1] TRUE
+
+[[18]]
+[1] FALSE
+
+Error in tic("total") : could not find function "tic"
+Execution halted

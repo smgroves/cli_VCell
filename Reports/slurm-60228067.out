@@ -1,0 +1,1 @@
+FATAL:   While making image from oci registry: error fetching image to cache: failed to get checksum for docker://https://github.com/virtualcell/vcell/pkgs/container/biosimulators_vcell/201602946?tag=7.5.0.121: unable to parse image name docker://https://github.com/virtualcell/vcell/pkgs/container/biosimulators_vcell/201602946?tag=7.5.0.121: invalid reference format

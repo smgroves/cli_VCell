@@ -1,0 +1,26 @@
+Loading modules...
+To use your local R packages in RStudio, run:
+echo "R_LIBS_USER=~/R/goolf/4.3" > ~/.Renviron
+Finished loading modules...
+Activate conda environment...
+/scratch/xpz5km/vcell_in/_10_16_23
+/scratch/xpz5km/vcell_out/_10_16_23
+mkdir: cannot create directory ‘/scratch/xpz5km/vcell_out/_10_16_23’: File exists
+Convert reports.h5 to csvs
+/sfs/qumulo/qhome/xpz5km/cli_VCell/hdf5_converter_Rivanna.py:1: DeprecationWarning: 
+Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
+(to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
+but was not found to be installed on your system.
+If this would cause problems for you,
+please provide us feedback at https://github.com/pandas-dev/pandas/issues/54466
+        
+  import pandas as pd
+Traceback (most recent call last):
+  File "/sfs/qumulo/qhome/xpz5km/cli_VCell/hdf5_converter_Rivanna.py", line 7, in <module>
+    import seaborn as sns
+ModuleNotFoundError: No module named 'seaborn'
+/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml/
+Warning in install.packages(packages) :
+  'lib = "/sfs/applications/202312/software/standard/mpi/gcc/11.4.0/openmpi/4.1.4/R/4.3.1/lib64/R/library"' is not writable
+Error in install.packages(packages) : unable to install packages
+Execution halted

@@ -1,0 +1,82 @@
+Mon Apr 15 11:23:41 EDT 2024
+Loading modules...
+/scratch/xpz5km/vcell_in/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units.omex
+/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units
+Run VCell model through CLI...
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+docker: Command recieved::<-i /scratch/xpz5km/vcell_in/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units.omex -o /scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units>
+<-i>
+Default case selected
+VCell shall execute <biosimulations -i /scratch/xpz5km/vcell_in/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units.omex -o /scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units>
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+ INFO (CLIStandalone:36) - Starting Vcell... []{}
+ INFO (BiosimulationsCommand:92) - Beginning execution []{}
+ INFO (CLIPythonManager:116) - Initializing Python... []{}
+ INFO (CLIPythonManager:136) - Python initialization success! []{}
+ INFO (ExecuteImpl:133) - Preparing output directory... []{}
+ERROR (RunUtils:508) - java.lang.Exception: File '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units' could not be deleted! []{}
+ INFO (ExecutionJob:87) - Executing OMEX archive /scratch/xpz5km/vcell_in/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units.omex []{}
+-----------------------------------------------------------------------------------------------------
+ INFO (NativeLib:33) - Loading combinej []{}
+ INFO (RunUtils:476) - TempPath Created: /tmp/vcell_temp_262b92e5-e5dc-4c3d-b7b2-b67b63f9b21f5389265391641129206 []{}
+ INFO (SedmlJob:110) - Initializing SED-ML document... []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ INFO (SedmlJob:125) - Processing SED-ML: TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex_SBML_units.sedml []{}
+ INFO (SedmlJob:161) - Found one SED-ML document with 3 model(s), 2 simulation(s), 3 task(s), 2  report(s),  0 plot2D(s), and 0 plot3D(s)
+ []{}
+ INFO (SedmlJob:166) - Successful translation of SED-ML file : TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex_SBML_units.sedml []{}
+-----------------------------------------------------------------------------------------------------
+ INFO (SedmlJob:170) - Creating pseudo SED-ML for HDF5 conversion... []{}
+ INFO (SedmlJob:182) - Creating Biomodel from pseudo SED-ML []{}
+ INFO (SedmlJob:257) - Building solvers and starting simulation of all tasks...  []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=0, numPixel=10057, imageValue=0) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(chromosome0) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=1, numPixel=72, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void1) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=2, numPixel=72, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void2) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void1) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void2) []{}
+ INFO (SBMLImporter:4077) - ignoring missing interior point for domain membrane_chromosome0_void1 with domainType chromosome_void_membrane []{}
+ INFO (SBMLImporter:4077) - ignoring missing interior point for domain membrane_chromosome0_void2 with domainType chromosome_void_membrane []{}
+ WARN (SolverUtilities:168) - KISAO - bad format, skipping []{}
+ WARN (SolverUtilities:168) - KISAO - bad format, skipping []{}
+ WARN (SolverUtilities:168) - KISAO - bad format, skipping []{}
+ INFO (SEDMLImporter:182) - Task (id='tsk_0_0') is compatible, solver match found in ontology: 'KISAO:0000615' matched to SundialsPDE []{}
+ WARN (SolverUtilities:168) - KISAO - bad format, skipping []{}
+ WARN (SolverUtilities:168) - KISAO - bad format, skipping []{}
+ WARN (SolverUtilities:168) - KISAO - bad format, skipping []{}
+ INFO (SEDMLImporter:182) - Task (id='tsk_0_1') is compatible, solver match found in ontology: 'KISAO:0000615' matched to SundialsPDE []{}
+taskToSimulationMap: 2
+taskToListOfSubTasksMap: 2
+taskToVariableMap: 2
+topTaskToBaseTask: 2
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=0, numPixel=8072, imageValue=0) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(chromosome0) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=1, numPixel=60, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void1) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=2, numPixel=60, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void2) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void1) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void2) []{}
+ INFO (SolverHandler:430) - Solver: cbit.vcell.solvers.FVSolverStandalone@6f96dd64 []{}
+ INFO (SolverHandler:431) - Status: Finished: SOLVER_FINISHED:completed []{}
+ WARN (SolverHandler:440) - Solver results are not compatible with CSV format.  []{}
+ INFO (SolverHandler:477) - Succesful execution: Model '_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units_TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex_SBML_units.sedml_Spatial' Task '10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv'. []{}
+ INFO (SolverHandler:489) - Running simulation 10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv, 1129810 ms []{}
+-----------------------------------------------------------------------------------------------------
+ INFO (NativeLib:33) - Loading jhdf5 []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=0, numPixel=8072, imageValue=0) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(chromosome0) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=1, numPixel=60, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void1) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=2, numPixel=60, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void2) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void1) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void2) []{}

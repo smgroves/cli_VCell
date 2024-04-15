@@ -1,0 +1,1811 @@
+Loading modules...
+To use your local R packages in RStudio, run:
+echo "R_LIBS_USER=~/R/goolf/4.3" > ~/.Renviron
+Finished loading modules...
+Activate conda environment...
+/scratch/xpz5km/vcell_in/_10_16_23
+/scratch/xpz5km/vcell_out/_10_16_23
+mkdir: cannot create directory ‘/scratch/xpz5km/vcell_out/_10_16_23’: File exists
+Convert reports.h5 to csvs
+/scratch/xpz5km/vcell_out/_10_16_23/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] FALSE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] FALSE
+
+[[14]]
+[1] FALSE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/"
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/plots"
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/"
+[1] "0000"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170"
+[1] "0001"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170"
+[1] "0002"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170"
+[1] "0003"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170"
+[1] "0004"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170"
+[1] "0005"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170"
+[1] "0006"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170"
+[1] "0007"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170"
+[1] "0008"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170"
+[1] "0009"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170"
+[1] "0010"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170"
+          0          10          20          30          40          50 
+"t (s) = 0"        "10"        "20"        "30"        "40"        "50" 
+         60          70          80          90         100 
+       "60"        "70"        "80"        "90"       "100" 
+[1] "0000"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0001"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.434229741288006"
+[1] "0002"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.491324290614531"
+[1] "0003"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.496136526291678"
+[1] "0004"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.49542943059157"
+[1] "0005"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.494815787722165"
+[1] "0006"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.494614262096021"
+[1] "0007"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.494664547101471"
+[1] "0008"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.494857704812745"
+[1] "0009"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.495145761064031"
+[1] "0010"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.495512101962971"
+          0          10          20          30          40          50 
+"t (s) = 0"        "10"        "20"        "30"        "40"        "50" 
+         60          70          80          90         100 
+       "60"        "70"        "80"        "90"       "100" 
+[1] "0000"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0001"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0002"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0003"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0004"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0005"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0006"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0007"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0008"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0009"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0010"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+          0          10          20          30          40          50 
+"t (s) = 0"        "10"        "20"        "30"        "40"        "50" 
+         60          70          80          90         100 
+       "60"        "70"        "80"        "90"       "100" 
+Can't get line plots!
+<simpleError in select(., "Time", ends_with("i")): could not find function "select">
+total: 21.474 sec elapsed
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+/scratch/xpz5km/vcell_out/_10_16_23/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] FALSE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] FALSE
+
+[[14]]
+[1] FALSE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/"
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/plots"
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/"
+[1] "0000"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 1.018369601064"
+[1] "0001"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.531802958983122"
+[1] "0002"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.451225619356418"
+[1] "0003"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.436077029191469"
+[1] "0004"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.432264739786126"
+[1] "0005"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.430908069245661"
+[1] "0006"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.430251677877733"
+[1] "0007"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.429827922652845"
+[1] "0008"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.429472162110567"
+[1] "0009"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.429113779346613"
+[1] "0010"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.428716763449687"
+          0          10          20          30          40          50 
+"t (s) = 0"        "10"        "20"        "30"        "40"        "50" 
+         60          70          80          90         100 
+       "60"        "70"        "80"        "90"       "100" 
+[1] "0000"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 1.018369601064"
+[1] "0001"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.531887637879378"
+[1] "0002"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.451410783782718"
+[1] "0003"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.436381412833014"
+[1] "0004"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.432710535803864"
+[1] "0005"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.431521555622751"
+[1] "0006"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.43106395030605"
+[1] "0007"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.430875751218309"
+[1] "0008"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.430798989597961"
+[1] "0009"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.430770883126524"
+[1] "0010"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.430764589575611"
+          0          10          20          30          40          50 
+"t (s) = 0"        "10"        "20"        "30"        "40"        "50" 
+         60          70          80          90         100 
+       "60"        "70"        "80"        "90"       "100" 
+[1] "0000"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0001"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0002"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0003"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0004"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0005"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0006"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0007"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0008"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0009"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0010"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0"
+          0          10          20          30          40          50 
+"t (s) = 0"        "10"        "20"        "30"        "40"        "50" 
+         60          70          80          90         100 
+       "60"        "70"        "80"        "90"       "100" 
+Can't get line plots!
+<simpleError in select(., "Time", ends_with("i")): could not find function "select">
+total: 20.968 sec elapsed
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+/scratch/xpz5km/vcell_out/_10_16_23/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] FALSE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] FALSE
+
+[[14]]
+[1] FALSE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/"
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/plots"
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/"
+[1] "0000"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 172.542826176464"
+[1] "0001"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 172.976949893028"
+[1] "0002"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 173.033803220229"
+[1] "0003"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 173.038280099467"
+[1] "0004"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 173.037153274899"
+[1] "0005"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 173.036033339981"
+[1] "0006"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 173.035228008964"
+[1] "0007"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 173.034561582287"
+[1] "0008"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 173.033905737924"
+[1] "0009"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 173.033188540143"
+[1] "0010"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 173.032365938131"
+          0          10          20          30          40          50 
+"t (s) = 0"        "10"        "20"        "30"        "40"        "50" 
+         60          70          80          90         100 
+       "60"        "70"        "80"        "90"       "100" 
+[1] "0000"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0"
+[1] "0001"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.434197246435929"
+[1] "0002"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.49122081816949"
+[1] "0003"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.495930210621106"
+[1] "0004"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.495090420089544"
+[1] "0005"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.494315004099235"
+[1] "0006"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.493919622708232"
+[1] "0007"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.493739571500878"
+[1] "0008"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.493660062527704"
+[1] "0009"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.493625277491295"
+[1] "0010"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.493610115309393"
+          0          10          20          30          40          50 
+"t (s) = 0"        "10"        "20"        "30"        "40"        "50" 
+         60          70          80          90         100 
+       "60"        "70"        "80"        "90"       "100" 
+[1] "0000"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170"
+[1] "0001"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170.434197246436"
+[1] "0002"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170.491220818169"
+[1] "0003"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170.495930210621"
+[1] "0004"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170.49509042009"
+[1] "0005"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170.494315004099"
+[1] "0006"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170.493919622708"
+[1] "0007"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170.493739571501"
+[1] "0008"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170.493660062528"
+[1] "0009"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170.493625277491"
+[1] "0010"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 170.493610115309"
+          0          10          20          30          40          50 
+"t (s) = 0"        "10"        "20"        "30"        "40"        "50" 
+         60          70          80          90         100 
+       "60"        "70"        "80"        "90"       "100" 
+Can't get line plots!
+<simpleError in select(., "Time", ends_with("i")): could not find function "select">
+total: 21.239 sec elapsed
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+/scratch/xpz5km/vcell_out/_10_16_23/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] FALSE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] FALSE
+
+[[14]]
+[1] FALSE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/"
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/plots"
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/"
+[1] "0000"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.635706544116"
+[1] "0001"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.736881719082568"
+[1] "0002"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.756075308383791"
+[1] "0003"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.762389115869599"
+[1] "0004"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.765055662410311"
+[1] "0005"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.766400089009341"
+[1] "0006"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.767240995988829"
+[1] "0007"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.767914974128581"
+[1] "0008"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.768573374334954"
+[1] "0009"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.769291834434679"
+[1] "0010"
+[1] "CPCa"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "CPCi"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.770115245389883"
+          0          10          20          30          40          50 
+"t (s) = 0"        "10"        "20"        "30"        "40"        "50" 
+         60          70          80          90         100 
+       "60"        "70"        "80"        "90"       "100" 
+[1] "0000"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.635706544116"
+[1] "0001"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.736881719082568"
+[1] "0002"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.756075308383791"
+[1] "0003"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.762389115869599"
+[1] "0004"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.765055662410311"
+[1] "0005"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.766400089009341"
+[1] "0006"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.767240995988829"
+[1] "0007"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.767914974128581"
+[1] "0008"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.768573374334954"
+[1] "0009"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.769291834434679"
+[1] "0010"
+[1] "pH2A"
+[1] "pH2A_Sgo1"
+[1] "pH2A_Sgo1_CPCa"
+[1] "pH2A_Sgo1_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] "Max (uM): 0.770115245389883"
+          0          10          20          30          40          50 
+"t (s) = 0"        "10"        "20"        "30"        "40"        "50" 
+         60          70          80          90         100 
+       "60"        "70"        "80"        "90"       "100" 
+[1] "0000"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.27418479226"
+[1] "0001"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.27418479226"
+[1] "0002"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.27418479226"
+[1] "0003"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.27418479226"
+[1] "0004"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.27418479226"
+[1] "0005"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.27418479226"
+[1] "0006"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.27418479226"
+[1] "0007"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.27418479226"
+[1] "0008"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.27418479226"
+[1] "0009"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.27418479226"
+[1] "0010"
+[1] "pH3"
+[1] "pH3_CPCa"
+[1] "pH3_CPCi"
+[1] "pH2A_Sgo1_pH3_CPCa"
+[1] "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] "Max (uM): 0.27418479226"
+          0          10          20          30          40          50 
+"t (s) = 0"        "10"        "20"        "30"        "40"        "50" 
+         60          70          80          90         100 
+       "60"        "70"        "80"        "90"       "100" 
+Can't get line plots!
+<simpleError in select(., "Time", ends_with("i")): could not find function "select">
+total: 21.964 sec elapsed
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] FALSE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] FALSE
+
+[[14]]
+[1] FALSE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml/"
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml/plots"
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml/"
+[1] "0000"
+[1] "CPCa"
+Can't get heatmaps!
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+CPCa
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH2A_Sgo1_CPCa
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH3_CPCa
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH2A_Sgo1_pH3_CPCa
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+CPCi
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH2A_Sgo1_CPCi
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH3_CPCi
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH2A_Sgo1_pH3_CPCi
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+Mps1a
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pMps1a
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+Ndc80_Mps1a
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+Ndc80_pMps1a
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pNdc80_Mps1a
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pNdc80_pMps1a
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+Mps1i
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pMps1i
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+Ndc80_Mps1i
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+Ndc80_pMps1i
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pNdc80_Mps1i
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pNdc80_pMps1i
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+Haspina
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+Haspini
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+Plk1a
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+Plk1i
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH3
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH3_CPCa
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH3_CPCi
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH2A_Sgo1_pH3_CPCa
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH2A_Sgo1_pH3_CPCi
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH2A
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH2A_Sgo1
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH2A_Sgo1_CPCa
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH2A_Sgo1_CPCi
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH2A_Sgo1_pH3_CPCi
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pH2A_Sgo1_pH3_CPCa
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+H3
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+H2A
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+Bub1a
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pKnl1
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Missing species
+pKnl1_Bub1a
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml//data/"
+<simpleError in file(file, "rt"): cannot open the connection>
+Can't get line plots!
+<subscriptOutOfBoundsError in matrixList[[i]]: subscript out of bounds>
+total: 0.972 sec elapsed
+There were 41 warnings (use warnings() to see them)

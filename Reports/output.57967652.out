@@ -1,0 +1,94 @@
+Loading modules...
+To use your local R packages in RStudio, run:
+echo "R_LIBS_USER=~/R/goolf/4.3" > ~/.Renviron
+Finished loading modules...
+Activate conda environment...
+/scratch/xpz5km/vcell_in/_10_16_23
+/scratch/xpz5km/vcell_out/_10_16_23
+mkdir: cannot create directory ‘/scratch/xpz5km/vcell_out/_10_16_23’: File exists
+Convert reports.h5 to csvs
+Using default species list of length 37
+Traceback (most recent call last):
+  File "/sfs/qumulo/qhome/xpz5km/cli_VCell/hdf5_converter_Rivanna.py", line 234, in <module>
+    convert_h5_to_csvs(dir_path=dir_path, model_name=model_name)
+  File "/sfs/qumulo/qhome/xpz5km/cli_VCell/hdf5_converter_Rivanna.py", line 78, in convert_h5_to_csvs
+    "_".join(i.split("_")[1:]) for i in list(h5[f"{model_name}.sedml"].keys())
+                                             ~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "/apps/software/standard/core/anaconda/2023.07-py3.11/lib/python3.11/site-packages/h5py/_hl/group.py", line 328, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5o.pyx", line 190, in h5py.h5o.open
+KeyError: "Unable to open object (object '_10_16_23.sedml' doesn't exist)"
+/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] FALSE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] FALSE
+
+[[14]]
+[1] FALSE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml/"
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml/plots"
+[1] "/scratch/xpz5km/vcell_out/_10_16_23/TEST_10_16_23_CPC_tensed_RefModel_128x64_to_omex.sedml/"
+Error in save_plots(sim, paste(kt_width, "Model"), heatmap_species, heatmap_info_list,  : 
+  could not find function "save_plots"
+Execution halted
