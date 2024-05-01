@@ -34,11 +34,11 @@ all_plot <- function(
   
   # initial concentrations (uM) -> Without vol_ratio or fractions multiplications
   # clamped
-  # Haspini_ic_uM<- 0.55071118
-  # Plk1_init_uM<-0.23394
-  # CPCi_init_uM <- 0.07838
-  # Bub1a_init_uM<-0.02018
-  # Sgo1_init_uM<-0.02583
+  Haspini_ic_uM<- 0.55071118
+  Plk1_init_uM<-0.23394
+  CPCi_init_uM <- 0.07838
+  Bub1a_init_uM<-0.02018
+  Sgo1_init_uM<-0.02583
   
 
   
@@ -475,11 +475,7 @@ all_plot <- function(
       highlight_active_ic <- filtered_active_ic %>% select(all_of(active_ic))
     }else{
       highlight_active_ic <- filtered_active_ic %>% summarise_if(is.numeric, list(~ max(., na.rm=TRUE)))
-      # highlight_active_ic <- filtered_active_ic %>% select(all_of(order(highlight_active_ic, decreasing = TRUE))[1:n_highlight])
-
-      sorted.df = highlight_active_ic[, order(as.matrix(highlight_active_ic)[1,], decreasing = TRUE)]
-      highlight_active_ic <- filtered_active_ic %>% select(all_of(colnames(sorted.df))[1:n_highlight])
-
+      highlight_active_ic <- filtered_active_ic %>% select(all_of(order(highlight_active_ic, decreasing = TRUE))[1:n_highlight])
     }
     
     # Add in Time and Sum
@@ -538,9 +534,7 @@ all_plot <- function(
       highlight_inactive_ic <- filtered_inactive_ic %>% select(all_of(active_ic))
     }else{
       highlight_inactive_ic <- filtered_inactive_ic %>% summarise_if(is.numeric, list(~ max(., na.rm=TRUE)))
-      # highlight_inactive_ic <- filtered_inactive_ic %>% select(all_of(order(highlight_inactive_ic, decreasing = TRUE))[1:n_highlight])
-      sorted.df = highlight_inactive_ic[, order(as.matrix(highlight_inactive_ic)[1,], decreasing = TRUE)]
-      highlight_inactive_ic <- filtered_inactive_ic %>% select(all_of(colnames(sorted.df))[1:n_highlight])
+      highlight_inactive_ic <- filtered_inactive_ic %>% select(all_of(order(highlight_inactive_ic, decreasing = TRUE))[1:n_highlight])
     }
     
     # Add in Time and Sum
@@ -598,9 +592,7 @@ all_plot <- function(
       highlight_active_kt <- filtered_active_kt %>% select(all_of(active_kt))
     }else{
       highlight_active_kt <- filtered_active_kt %>% summarise_if(is.numeric, list(~ max(., na.rm=TRUE)))
-      # highlight_active_kt <- filtered_active_kt %>% select(all_of(order(highlight_active_kt, decreasing = TRUE))[1:n_highlight])
-      sorted.df = highlight_active_kt[, order(as.matrix(highlight_active_kt)[1,], decreasing = TRUE)]
-      highlight_active_kt <- filtered_active_kt %>% select(all_of(colnames(sorted.df))[1:n_highlight])
+      highlight_active_kt <- filtered_active_kt %>% select(all_of(order(highlight_active_kt, decreasing = TRUE))[1:n_highlight])
     }
     
     # Add in Time and Sum
@@ -659,9 +651,7 @@ all_plot <- function(
       highlight_inactive_kt <- filtered_inactive_kt %>% select(all_of(active_kt))
     }else{
       highlight_inactive_kt <- filtered_inactive_kt %>% summarise_if(is.numeric, list(~ max(., na.rm=TRUE)))
-      # highlight_inactive_kt <- filtered_inactive_kt %>% select(all_of(order(highlight_inactive_kt, decreasing = TRUE))[1:n_highlight])
-      sorted.df = highlight_inactive_kt[, order(as.matrix(highlight_inactive_kt)[1,], decreasing = TRUE)]
-      highlight_inactive_kt <- filtered_inactive_kt %>% select(all_of(colnames(sorted.df))[1:n_highlight])
+      highlight_inactive_kt <- filtered_inactive_kt %>% select(all_of(order(highlight_inactive_kt, decreasing = TRUE))[1:n_highlight])
     }
     
     # Add in Time and Sum
@@ -714,9 +704,8 @@ all_plot <- function(
       highlight_ic <- filtered_ic %>% select(all_of(ic))
     }else{
       highlight_ic <- filtered_ic %>% summarise_if(is.numeric, list(~ max(., na.rm=TRUE)))
-      # highlight_ic <- filtered_ic %>% select(all_of(order(highlight_ic, decreasing = TRUE))[1:n_highlight])
-      sorted.df = highlight_ic[, order(as.matrix(highlight_ic)[1,], decreasing = TRUE)]
-      highlight_ic <- filtered_ic %>% select(all_of(colnames(sorted.df))[1:n_highlight])
+      print(head(highlight_ic))
+      highlight_ic <- filtered_ic %>% select(all_of(order(highlight_ic, decreasing = TRUE))[1:n_highlight])
     }
     
     # Add in Time and Sum
@@ -775,9 +764,7 @@ all_plot <- function(
       highlight_kt <- filtered_kt %>% select(all_of(kt))
     }else{
       highlight_kt <- filtered_kt %>% summarise_if(is.numeric, list(~ max(., na.rm=TRUE)))
-      # highlight_kt <- filtered_kt %>% select(all_of(order(highlight_kt, decreasing = TRUE))[1:n_highlight])
-      sorted.df = highlight_kt[, order(as.matrix(highlight_kt)[1,], decreasing = TRUE)]
-      highlight_kt <- filtered_kt %>% select(all_of(colnames(sorted.df))[1:n_highlight])
+      highlight_kt <- filtered_kt %>% select(all_of(order(highlight_kt, decreasing = TRUE))[1:n_highlight])
     }
     
     # Add in Time and Sum
@@ -905,14 +892,12 @@ all_plot <- function(
     
     setwd(exportPath)
     pdf_convert(exportP, format = "png")
-    
-    dir.create(file.path(exportPath, 'data'))
-    write.csv(data_active_ic, paste(exportPath,paste0("data/data_active_ic_",identity,".csv"),sep="/"), row.names = FALSE)
-    write.csv(data_inactive_ic, paste(exportPath,paste0("data/data_inactive_ic_",identity,".csv"),sep="/"), row.names = FALSE)
-    write.csv(data_active_kt, paste(exportPath,paste0("data/data_active_kt_",identity,".csv"),sep="/"), row.names = FALSE)
-    write.csv(data_inactive_kt, paste(exportPath,paste0("data/data_inactive_kt_",identity,".csv"),sep="/"), row.names = FALSE)
-    write.csv(data_ic, paste(exportPath,paste0("data/data_ic_",identity,".csv"),sep="/"), row.names = FALSE)
-    write.csv(data_kt, paste(exportPath,paste0("data/data_kt_",identity,".csv"),sep="/"), row.names = FALSE)
+    write.csv(data_active_ic, paste(exportPath,"data_active_ic.csv",sep="/"), row.names = FALSE)
+    write.csv(data_inactive_ic, paste(exportPath,"data_inactive_ic.csv",sep="/"), row.names = FALSE)
+    write.csv(data_active_kt, paste(exportPath,"data_active_kt.csv",sep="/"), row.names = FALSE)
+    write.csv(data_inactive_kt, paste(exportPath,"data_inactive_kt.csv",sep="/"), row.names = FALSE)
+    write.csv(data_ic, paste(exportPath,"data_ic.csv",sep="/"), row.names = FALSE)
+    write.csv(data_kt, paste(exportPath,"data_kt.csv",sep="/"), row.names = FALSE)
     
     
     setwd(importPath)

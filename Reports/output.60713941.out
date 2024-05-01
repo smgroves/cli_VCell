@@ -1,0 +1,211 @@
+Tue Apr 30 18:01:49 EDT 2024
+Loading modules...
+/scratch/xpz5km/vcell_in/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units.omex
+/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units
+mkdir: cannot create directory ‘/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units’: File exists
+Loading modules...
+To use your local R packages in RStudio, run:
+echo "R_LIBS_USER=~/R/goolf/4.3" > ~/.Renviron
+Finished loading modules...
+Activate conda environment...
+/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+Bus n/a: changing state UNSET → OPENING
+Bus n/a: changing state OPENING → AUTHENTICATING
+Bus n/a: changing state AUTHENTICATING → HELLO
+Sent message type=method_call sender=n/a destination=org.freedesktop.DBus path=/org/freedesktop/DBus interface=org.freedesktop.DBus member=Hello cookie=1 reply_cookie=0 signature=n/a error-name=n/a error-message=n/a
+Got message type=method_return sender=org.freedesktop.DBus destination=:1.322757 path=n/a interface=n/a member=n/a cookie=1 reply_cookie=1 signature=s error-name=n/a error-message=n/a
+Bus n/a: changing state HELLO → RUNNING
+Sent message type=method_call sender=n/a destination=org.freedesktop.timedate1 path=/org/freedesktop/timedate1 interface=org.freedesktop.DBus.Properties member=GetAll cookie=2 reply_cookie=0 signature=s error-name=n/a error-message=n/a
+Got message type=method_return sender=:1.322758 destination=:1.322757 path=n/a interface=n/a member=n/a cookie=24 reply_cookie=2 signature=a{sv} error-name=n/a error-message=n/a
+Bus n/a: changing state RUNNING → CLOSED
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ lemon::%||%()    masks purrr::%||%()
+✖ dplyr::combine() masks gridExtra::combine()
+✖ dplyr::filter()  masks stats::filter()
+✖ dplyr::lag()     masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+Using poppler version 20.11.0
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] TRUE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] TRUE
+
+[[14]]
+[1] TRUE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/plots"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/"
+[1] "CPCa"               "pH2A_Sgo1_CPCa"     "pH3_CPCa"          
+[4] "pH2A_Sgo1_pH3_CPCa" "CPCi"               "pH2A_Sgo1_CPCi"    
+[7] "pH3_CPCi"           "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH2A"               "pH2A_Sgo1"          "pH2A_Sgo1_CPCa"    
+[4] "pH2A_Sgo1_CPCi"     "pH2A_Sgo1_pH3_CPCi" "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH3"                "pH3_CPCa"           "pH3_CPCi"          
+[4] "pH2A_Sgo1_pH3_CPCa" "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+        CPCa pH2A_Sgo1_CPCa  pH3_CPCa pH2A_Sgo1_pH3_CPCa
+1 0.05907574      0.1651338 0.9904307          0.8833572
+          CPCa pH2A_Sgo1_CPCa     pH3_CPCa pH2A_Sgo1_pH3_CPCa
+1 0.000000e+00   0.000000e+00 0.000000e+00       0.000000e+00
+2 8.154741e-05   1.019566e-05 1.053720e-05       1.350773e-06
+3 1.597113e-04   9.010610e-05 8.105472e-05       4.578161e-05
+4 2.422989e-04   3.277025e-04 3.137797e-04       3.253510e-04
+5 3.737700e-04   1.035288e-03 1.237790e-03       1.585614e-03
+6 6.678071e-04   3.488490e-03 5.702568e-03       7.410987e-03
+       pH3_CPCa pH2A_Sgo1_pH3_CPCa pH2A_Sgo1_CPCa         CPCa
+1  0.000000e+00       0.000000e+00   0.000000e+00 0.000000e+00
+2  1.053720e-05       1.350773e-06   1.019566e-05 8.154741e-05
+3  8.105472e-05       4.578161e-05   9.010610e-05 1.597113e-04
+4  3.137797e-04       3.253510e-04   3.277025e-04 2.422989e-04
+5  1.237790e-03       1.585614e-03   1.035288e-03 3.737700e-04
+6  5.702568e-03       7.410987e-03   3.488490e-03 6.678071e-04
+7  2.996908e-02       3.647962e-02   1.315092e-02 1.502641e-03
+8  1.539384e-01       1.721273e-01   4.974351e-02 4.340338e-03
+9  5.004055e-01       5.157434e-01   1.242722e-01 1.335566e-02
+10 8.202553e-01       7.845794e-01   1.648296e-01 3.226020e-02
+11 9.904307e-01       8.833572e-01   1.651338e-01 5.907574e-02
+Can't get line plots!
+<error/rlang_error>
+Error in `select()`:
+! Problem while evaluating `all_of(order(highlight_inactive_ic, decreasing = TRUE))[1:n_highlight]`.
+Caused by error in `xtfrm.data.frame()`:
+! cannot xtfrm data frames
+---
+Backtrace:
+     ▆
+  1. ├─global save_plots(...)
+  2. │ ├─base::tryCatch(...)
+  3. │ │ └─base (local) tryCatchList(expr, classes, parentenv, handlers)
+  4. │ │   └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+  5. │ │     └─base (local) doTryCatch(return(expr), name, parentenv, handler)
+  6. │ └─global all_plot(...)
+  7. │   └─filtered_inactive_ic %>% ...
+  8. ├─dplyr::select(., all_of(order(highlight_inactive_ic, decreasing = TRUE))[1:n_highlight])
+  9. ├─dplyr:::select.data.frame(., all_of(order(highlight_inactive_ic, decreasing = TRUE))[1:n_highlight])
+ 10. │ └─tidyselect::eval_select(expr(c(...)), data = .data, error_call = error_call)
+ 11. │   └─tidyselect:::eval_select_impl(...)
+ 12. │     ├─tidyselect:::with_subscript_errors(...)
+ 13. │     │ └─rlang::try_fetch(...)
+ 14. │     │   └─base::withCallingHandlers(...)
+ 15. │     └─tidyselect:::vars_select_eval(...)
+ 16. │       └─tidyselect:::walk_data_tree(expr, data_mask, context_mask)
+ 17. │         └─tidyselect:::eval_c(expr, data_mask, context_mask)
+ 18. │           └─tidyselect:::reduce_sels(node, data_mask, context_mask, init = init)
+ 19. │             └─tidyselect:::walk_data_tree(new, data_mask, context_mask)
+ 20. │               └─tidyselect:::eval_context(expr, context_mask, call = error_call)
+ 21. │                 ├─tidyselect:::with_chained_errors(...)
+ 22. │                 │ └─rlang::try_fetch(...)
+ 23. │                 │   ├─base::tryCatch(...)
+ 24. │                 │   │ └─base (local) tryCatchList(expr, classes, parentenv, handlers)
+ 25. │                 │   │   └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+ 26. │                 │   │     └─base (local) doTryCatch(return(expr), name, parentenv, handler)
+ 27. │                 │   └─base::withCallingHandlers(...)
+ 28. │                 └─rlang::eval_tidy(as_quosure(expr, env), context_mask)
+ 29. ├─tidyselect::all_of(order(highlight_inactive_ic, decreasing = TRUE))
+ 30. │ └─tidyselect:::as_indices_impl(x, vars = vars, strict = TRUE)
+ 31. └─base::order(highlight_inactive_ic, decreasing = TRUE)
+ 32.   └─base::lapply(z, function(x) if (is.object(x)) as.vector(xtfrm(x)) else x)
+ 33.     └─base (local) FUN(X[[i]], ...)
+ 34.       ├─base::as.vector(xtfrm(x))
+ 35.       ├─base::xtfrm(x)
+ 36.       └─base::xtfrm.data.frame(x)
+ 37.         └─base::stop("cannot xtfrm data frames")
+total: 27.418 sec elapsed
+Warning message:
+The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 

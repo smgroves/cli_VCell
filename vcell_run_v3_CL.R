@@ -136,40 +136,22 @@ print(importPath)
 print(exportPath)
 # if(file.exists(importPath) == TRUE){
   
-  print(var)
-  
-  save_plots(sim,
-              paste(kt_width, "Model"),
-              heatmap_species,
-              heatmap_info_list,
-              all_data,
-              all_species,
-              species_info_list,
-              tInit=0,
-              tSpan=tSpan, #400 for relaxed to tense
-              desiredInterval=desiredInterval,
-              cutoff=5, #for heatmap color bar
-              funcPath,
-              importPath,
-              exportPath,
-              kt_width
-             )
+print(var)
 
-  # vcell_table(sims[i],
-              # var[i],
-              # tPoints=c(200, 400),
-              # all_species=CPC_species,
-              # name='CPC',
-              # chromWidth=1.6,
-              # chromHeight=3.5,
-              # dataDim=c(149,68),
-              # row_1=1,
-              # row_2=dataDim[1],
-              # col_1=1,
-              # col_2=dataDim[2],
-              # importPath,
-              # exportPath_new)
-              # 
-  
-# }
+save_plots(sim,
+            paste(kt_width, "Model"),
+            heatmap_species,
+            heatmap_info_list,
+            all_data,
+            all_species,
+            species_info_list,
+            tInit=0,
+            tSpan=tSpan, #400 for relaxed to tense
+            desiredInterval=desiredInterval,
+            cutoff=5, #for heatmap color bar
+            funcPath,
+            importPath,
+            exportPath,
+            kt_width
+            )
 
