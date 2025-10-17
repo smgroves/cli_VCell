@@ -1,0 +1,38 @@
+Fri Sep 19 14:52:05 EDT 2025
+Loading modules...
+Requirement already satisfied: pandas in /sfs/gpfs/tardis/home/xpz5km/.conda/envs/vcell/lib/python3.9/site-packages (2.2.0)
+Requirement already satisfied: h5py in /sfs/gpfs/tardis/home/xpz5km/.conda/envs/vcell/lib/python3.9/site-packages (3.10.0)
+Requirement already satisfied: numpy<2,>=1.22.4 in /sfs/gpfs/tardis/home/xpz5km/.conda/envs/vcell/lib/python3.9/site-packages (from pandas) (1.26.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in /sfs/gpfs/tardis/home/xpz5km/.conda/envs/vcell/lib/python3.9/site-packages (from pandas) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /sfs/gpfs/tardis/home/xpz5km/.conda/envs/vcell/lib/python3.9/site-packages (from pandas) (2023.4)
+Requirement already satisfied: tzdata>=2022.7 in /sfs/gpfs/tardis/home/xpz5km/.conda/envs/vcell/lib/python3.9/site-packages (from pandas) (2023.4)
+Requirement already satisfied: six>=1.5 in /sfs/gpfs/tardis/home/xpz5km/.conda/envs/vcell/lib/python3.9/site-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)
+/scratch/xpz5km/vcell_out/MaybeFixedResults
+Run VCell model through CLI...
+docker: Command recieved::<-i /scratch/xpz5km/vcell_in/ -o /scratch/xpz5km/vcell_out/MaybeFixedResults>
+<-i>
+Default case selected
+VCell shall execute <biosimulations -i /scratch/xpz5km/vcell_in/ -o /scratch/xpz5km/vcell_out/MaybeFixedResults>
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+ INFO (CLIStandalone:36) - Starting Vcell... []{}
+ERROR (BiosimulationsCommand:78) - ARCHIVE file /scratch/xpz5km/vcell_in not found, try --help for usage []{}
+Loading modules...
+To use the same local packages for both R and RStudio, do not set R_LIBS_USER in ~/.Renviron
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: python/3.11.4
+(required by: gdal/3.6.3)
+-------------------------------------------------------------------------------
+
+
+
+Finished loading modules...
+Activate conda environment...
+Convert reports.h5 to csvs
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/cli_VCell/hdf5_converter_Rivanna.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

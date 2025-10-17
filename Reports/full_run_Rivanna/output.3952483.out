@@ -1,0 +1,293 @@
+Tue Sep 23 12:05:34 EDT 2025
+Loading modules...
+/home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model.omex
+/scratch/xpz5km/cli_VCell/vcell_out/_09_16_25_CPC_metacentric_relaxed_model
+mkdir: cannot create directory ‘/scratch/xpz5km/cli_VCell/vcell_out/_09_16_25_CPC_metacentric_relaxed_model’: File exists
+Run VCell model through CLI...
+docker: Command recieved::<-i /home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model.omex -o /scratch/xpz5km/cli_VCell/vcell_out/_09_16_25_CPC_metacentric_relaxed_model>
+<-i>
+Default case selected
+VCell shall execute <biosimulations -i /home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model.omex -o /scratch/xpz5km/cli_VCell/vcell_out/_09_16_25_CPC_metacentric_relaxed_model>
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+ INFO (CLIStandalone:36) - Starting Vcell... []{}
+ INFO (BiosimulationsCommand:92) - Beginning execution []{}
+ INFO (CLIPythonManager:116) - Initializing Python... []{}
+ INFO (CLIPythonManager:136) - Python initialization success! []{}
+ INFO (ExecuteImpl:133) - Preparing output directory... []{}
+ERROR (RunUtils:508) - java.lang.Exception: File '/scratch/xpz5km/cli_VCell/vcell_out/_09_16_25_CPC_metacentric_relaxed_model' could not be deleted! []{}
+ INFO (ExecutionJob:87) - Executing OMEX archive /home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model.omex []{}
+-----------------------------------------------------------------------------------------------------
+ INFO (NativeLib:33) - Loading combinej []{}
+ INFO (RunUtils:476) - TempPath Created: /tmp/vcell_temp_02159653-ede9-42e2-895f-be94a37212a24925528062356786778 []{}
+ INFO (SedmlJob:110) - Initializing SED-ML document... []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ INFO (SedmlJob:125) - Processing SED-ML: _09_16_25_CPC_metacentric_relaxed_model.sedml []{}
+ INFO (SedmlJob:161) - Found one SED-ML document with 1 model(s), 1 simulation(s), 1 task(s), 1  report(s),  0 plot2D(s), and 0 plot3D(s)
+ []{}
+ INFO (SedmlJob:166) - Successful translation of SED-ML file : _09_16_25_CPC_metacentric_relaxed_model.sedml []{}
+-----------------------------------------------------------------------------------------------------
+ INFO (SedmlJob:170) - Creating pseudo SED-ML for HDF5 conversion... []{}
+ INFO (SedmlJob:182) - Creating Biomodel from pseudo SED-ML []{}
+ INFO (SedmlJob:257) - Building solvers and starting simulation of all tasks...  []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=0, numPixel=9715, imageValue=0) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(chromosome0) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=1, numPixel=243, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void1) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=2, numPixel=243, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void2) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void1) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void2) []{}
+ INFO (SBMLImporter:4077) - ignoring missing interior point for domain membrane_chromosome0_void1 with domainType chromosome_void_membrane []{}
+ INFO (SBMLImporter:4077) - ignoring missing interior point for domain membrane_chromosome0_void2 with domainType chromosome_void_membrane []{}
+ INFO (SBMLImporter:966) - adjustExpression(): replacing '___TIME_SYMBOL___' with 't' in (Dapp * alpha * pow((1.0 * (1.0 / (___TIME_SYMBOL___ + t_step))),(1.0 - (1.0 * alpha)))) []{}
+ WARN (AbstractMathMapping:1152) - Unit exception: Incompatible units [umol.l-1] and [s-1] in Expression: (I + ki) []{}
+ WARN (AbstractMathMapping:1152) - Unit exception: Incompatible units [umol.l-1] and [s-1] in Expression: (I + ki) []{}
+ WARN (SolverUtilities:168) - KISAO - bad format, skipping []{}
+ WARN (SolverUtilities:168) - KISAO - bad format, skipping []{}
+ WARN (SolverUtilities:168) - KISAO - bad format, skipping []{}
+ INFO (SEDMLImporter:182) - Task (id='tsk_0_0') is compatible, solver match found in ontology: 'KISAO:0000615' matched to SundialsPDE []{}
+taskToSimulationMap: 1
+taskToListOfSubTasksMap: 1
+taskToVariableMap: 1
+topTaskToBaseTask: 1
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=0, numPixel=7784, imageValue=0) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(chromosome0) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=1, numPixel=204, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void1) []{}
+ INFO (GeometrySurfaceUtils:88) - RegionInfo(regionIndex=2, numPixel=204, imageValue=2) []{}
+ INFO (GeometrySurfaceUtils:227) - added volumeRegion(void2) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void1) []{}
+ INFO (GeometrySurfaceUtils:272) - added surfaceRegion(membrane_chromosome0_void2) []{}
+ INFO (SolverHandler:430) - Solver: cbit.vcell.solvers.FVSolverStandalone@1a497286 []{}
+ INFO (SolverHandler:431) - Status: Finished: SOLVER_FINISHED:completed []{}
+ WARN (SolverHandler:440) - Solver results are not compatible with CSV format.  []{}
+ INFO (SolverHandler:477) - Succesful execution: Model '_09_16_25_CPC_metacentric_relaxed_model__09_16_25_CPC_metacentric_relaxed_model.sedml_Spatial' Task ' 09_16_25_metacentric_relaxed_model'. []{}
+ INFO (SolverHandler:489) - Running simulation  09_16_25_metacentric_relaxed_model, 4750376 ms []{}
+-----------------------------------------------------------------------------------------------------
+ INFO (NativeLib:33) - Loading jhdf5 []{}
+ INFO (SolverHandler:613) - Ran 1 simulation jobs for 1 biomodels. []{}
+ INFO (SedmlJob:298) - Generating outputs...  []{}
+ INFO (SedmlJob:388) - Generating HDF5 file...  []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:72) - Was not able to find simulation data for task with ID: tsk_0_0 []{}
+ WARN (NonspatialResultsConverter:159) - We did not get any entries in the final data set. This may mean a problem has been encountered. []{}
+ INFO (SedmlJob:339) - Archiving result files []{}
+ERROR (RunUtils:446) - No PDF files found, skipping archiving `plots.zip` files []{}
+ERROR (RunUtils:446) - No CSV files found, skipping archiving `reports.zip` files []{}
+ INFO (SedmlJob:346) - SED-ML : _09_16_25_CPC_metacentric_relaxed_model.sedml successfully completed []{}
+ INFO (ExecutionJob:144) - Processing of SedML succeeded.
+org.vcell.cli.run.SedmlStatistics@22886816 []{}
+ INFO (Hdf5Writer:44) - Creating hdf5 file `reports.h5` in/scratch/xpz5km/cli_VCell/vcell_out/_09_16_25_CPC_metacentric_relaxed_model []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5DataSourceSpatialVarDataItem:74) - Fetching experiment data []{}
+ INFO (Hdf5Writer:117) - HDF5 file successfully written to. []{}
+ INFO (ExecutionJob:173) - Omex _09_16_25_CPC_metacentric_relaxed_model.omex processing completed (6276s) []{}
+Loading modules again...
+Lmod has detected the following error: The following module(s) are unknown:
+"anaconda"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "anaconda"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+To use the same local packages for both R and RStudio, do not set R_LIBS_USER in ~/.Renviron
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: python/3.11.4
+(required by: gdal/3.6.3)
+-------------------------------------------------------------------------------
+
+
+
+Finished loading modules...
+Activate conda environment...
+/var/spool/slurm/slurmd/job3952483/slurm_script: line 52: activate: No such file or directory
+Convert reports.h5 to csvs
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/cli_VCell/hdf5_converter_Rivanna.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+/scratch/xpz5km/cli_VCell/vcell_out/_09_16_25_CPC_metacentric_relaxed_model/simulations/*/
+Bus n/a: changing state UNSET → OPENING
+Bus n/a: changing state OPENING → AUTHENTICATING
+Bus n/a: changing state AUTHENTICATING → HELLO
+Sent message type=method_call sender=n/a destination=org.freedesktop.DBus path=/org/freedesktop/DBus interface=org.freedesktop.DBus member=Hello cookie=1 reply_cookie=0 signature=n/a error-name=n/a error-message=n/a
+Got message type=method_return sender=org.freedesktop.DBus destination=:1.26760 path=n/a interface=n/a member=n/a cookie=1 reply_cookie=1 signature=s error-name=n/a error-message=n/a
+Bus n/a: changing state HELLO → RUNNING
+Sent message type=method_call sender=n/a destination=org.freedesktop.timedate1 path=/org/freedesktop/timedate1 interface=org.freedesktop.DBus.Properties member=GetAll cookie=2 reply_cookie=0 signature=s error-name=n/a error-message=n/a
+Got message type=method_return sender=:1.26761 destination=:1.26760 path=n/a interface=n/a member=n/a cookie=24 reply_cookie=2 signature=a{sv} error-name=n/a error-message=n/a
+Bus n/a: changing state RUNNING → CLOSED
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::combine() masks gridExtra::combine()
+✖ dplyr::filter()  masks stats::filter()
+✖ dplyr::lag()     masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+Using poppler version 20.11.0
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] FALSE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] TRUE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] FALSE
+
+[[13]]
+[1] TRUE
+
+[[14]]
+[1] TRUE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/cli_VCell/vcell_out/_09_16_25_CPC_metacentric_relaxed_model/simulations/*/"
+[1] "/scratch/xpz5km/cli_VCell/vcell_out/_09_16_25_CPC_metacentric_relaxed_model/simulations/*/plots"
+[1] "/scratch/xpz5km/cli_VCell/vcell_out/_09_16_25_CPC_metacentric_relaxed_model/simulations/*/"
+[1] "CPCa"               "pH2A_Sgo1_CPCa"     "pH3_CPCa"          
+[4] "pH2A_Sgo1_pH3_CPCa" "CPCi"               "pH2A_Sgo1_CPCi"    
+[7] "pH3_CPCi"           "pH2A_Sgo1_pH3_CPCi"
+Can't get heatmaps!
+<simpleError in setwd(importPath): cannot change working directory>
+Can't get line plots!
+<simpleError in setwd(importPath): cannot change working directory>
+total: 0.93 sec elapsed

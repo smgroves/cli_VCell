@@ -1,0 +1,109 @@
+Tue Sep 30 12:50:19 EDT 2025
+Loading modules...
+To use the same local packages for both R and RStudio, do not set R_LIBS_USER in ~/.Renviron
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: python/3.11.4
+(required by: gdal/3.6.3)
+-------------------------------------------------------------------------------
+
+
+
+Activate conda environment...
+/home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model.omex
+/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model
+Convert reports.h5 to csvs
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/cli_VCell/hdf5_converter_Rivanna.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model/simulations/*/
+Bus n/a: changing state UNSET → OPENING
+Bus n/a: changing state OPENING → AUTHENTICATING
+Bus n/a: changing state AUTHENTICATING → HELLO
+Sent message type=method_call sender=n/a destination=org.freedesktop.DBus path=/org/freedesktop/DBus interface=org.freedesktop.DBus member=Hello cookie=1 reply_cookie=0 signature=n/a error-name=n/a error-message=n/a
+Got message type=method_return sender=org.freedesktop.DBus destination=:1.129034 path=n/a interface=n/a member=n/a cookie=1 reply_cookie=1 signature=s error-name=n/a error-message=n/a
+Bus n/a: changing state HELLO → RUNNING
+Sent message type=method_call sender=n/a destination=org.freedesktop.timedate1 path=/org/freedesktop/timedate1 interface=org.freedesktop.DBus.Properties member=GetAll cookie=2 reply_cookie=0 signature=s error-name=n/a error-message=n/a
+Got message type=method_return sender=:1.129035 destination=:1.129034 path=n/a interface=n/a member=n/a cookie=24 reply_cookie=2 signature=a{sv} error-name=n/a error-message=n/a
+Bus n/a: changing state RUNNING → CLOSED
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::combine() masks gridExtra::combine()
+✖ dplyr::filter()  masks stats::filter()
+✖ dplyr::lag()     masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+Using poppler version 20.11.0
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] FALSE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] TRUE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] FALSE
+
+[[13]]
+[1] TRUE
+
+[[14]]
+[1] TRUE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model/simulations/*/"
+[1] "/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model/simulations/*/plots"
+[1] "/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model/simulations/*/"
+[1] "CPCa"               "pH2A_Sgo1_CPCa"     "pH3_CPCa"          
+[4] "pH2A_Sgo1_pH3_CPCa" "CPCi"               "pH2A_Sgo1_CPCi"    
+[7] "pH3_CPCi"           "pH2A_Sgo1_pH3_CPCi"
+Can't get heatmaps!
+<simpleError in setwd(importPath): cannot change working directory>
+Can't get line plots!
+<simpleError in setwd(importPath): cannot change working directory>
+total: 0.93 sec elapsed

@@ -1,0 +1,21 @@
+Tue Sep 30 14:08:30 EDT 2025
+Loading modules...
+Activate conda environment...
+To use the same local packages for both R and RStudio, do not set R_LIBS_USER in ~/.Renviron
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: python/3.11.4
+(required by: gdal/3.6.3)
+-------------------------------------------------------------------------------
+
+
+
+/home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model.omex
+/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model
+Convert reports.h5 to csvs
+/apps/software/standard/mpi/gcc/11.4.0/openmpi/4.1.4/python/3.11.4/bin/python
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/cli_VCell/hdf5_converter_Rivanna.py", line 20, in <module>
+    logan = sys.argv[5]
+            ~~~~~~~~^^^
+IndexError: list index out of range

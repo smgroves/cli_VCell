@@ -1,0 +1,8 @@
+Tue Sep 30 12:43:14 EDT 2025
+Loading modules...
+Loaded modules. Running tutorial...
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/cli_VCell/run_pyvcell/pyvcell_tutorial.py", line 3, in <module>
+    import pyvcell
+ModuleNotFoundError: No module named 'pyvcell'
+Done.

@@ -1,0 +1,45 @@
+INFO:    Converting OCI blobs to SIF format
+INFO:    Starting build...
+Copying blob sha256:c68abb20ed862332db019abdf58f70e5405ef87503ae99432412cead5abd2c96
+Copying blob sha256:7db6b292d168c56b46683cf847a4d57373db575328498b690d38106222e28c3f
+Copying blob sha256:5af16f80487e005bbbca7570c2b03dd6643958970d7c4fb220e37695edb05898
+Copying blob sha256:23828d760c7b04df02891af556c40ca44c2dd79d6837ea6f18fac24f4108448c
+Copying blob sha256:33a77b23feef10db8ff63ad3596a7507cbedf851fe3a9524478be2e299915314
+Copying blob sha256:494a03b42b7ef5b262ab5daa26eb9e8f1168b8f1038dfacd9b8d5f01414e23c0
+Copying blob sha256:3a9d0be71e80595793e4c28afa63b8112c62ff6cc69e515d1d5edf5d02f0c4fc
+Copying blob sha256:2fa4f7922c818690997c94aaee81cc588ef9eac15e512b1f50f46dd57cde38aa
+Copying blob sha256:e034187c13dd3a4314524a0d0b968e2534d923787d386f07f6496d17840970de
+Copying blob sha256:b74a53802e3bd9d5257504c5acd7856c9631826859de57f6f378328357488a8e
+Copying blob sha256:7e90024914d57c47728e178afab27f217b561b43988ea2d70c76c3f193d2b970
+Copying blob sha256:5864c67da543215258cedcfc0ceba9e38474fa3f3050f4e081d16e099364dce2
+Copying blob sha256:d2c4fe438846469f48c2fb4b2375a74079bd7cbe58e9f820cd3bffc808f840f4
+Copying blob sha256:654947e6196abd5ba61b926bf78c6ceafebd8f049ed7b3ca18c3ff0d812869d9
+Copying blob sha256:6c77f18f17cd709bf98e6f1ef1ee7c1c4e89274ddb72c78d4795f232f31194a6
+Copying blob sha256:ee541401930069f57fc7ea7b332194b147d2cc7821af75bfbc44b4d6b4bcc5ff
+Copying config sha256:12589eba8d2d6b798075307a797d9ec68cc8f3f32196a9fd5f472396670b6cd8
+Writing manifest to image destination
+2025/09/19 14:36:53  info unpack layer: sha256:23828d760c7b04df02891af556c40ca44c2dd79d6837ea6f18fac24f4108448c
+2025/09/19 14:36:53  warn xattr{etc/gshadow} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2025/09/19 14:36:53  warn xattr{/tmp/build-temp-3886628178/rootfs/etc/gshadow} destination filesystem does not support xattrs, further warnings will be suppressed
+2025/09/19 14:36:54  info unpack layer: sha256:33a77b23feef10db8ff63ad3596a7507cbedf851fe3a9524478be2e299915314
+2025/09/19 14:36:55  info unpack layer: sha256:7db6b292d168c56b46683cf847a4d57373db575328498b690d38106222e28c3f
+2025/09/19 14:36:55  warn xattr{etc/gshadow} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2025/09/19 14:36:55  warn xattr{/tmp/build-temp-3886628178/rootfs/etc/gshadow} destination filesystem does not support xattrs, further warnings will be suppressed
+2025/09/19 14:36:55  warn rootless{usr/lib/x86_64-linux-gnu/gstreamer1.0/gstreamer-1.0/gst-ptp-helper} ignoring (usually) harmless EPERM on setxattr "security.capability"
+2025/09/19 14:36:57  info unpack layer: sha256:5af16f80487e005bbbca7570c2b03dd6643958970d7c4fb220e37695edb05898
+2025/09/19 14:36:57  info unpack layer: sha256:494a03b42b7ef5b262ab5daa26eb9e8f1168b8f1038dfacd9b8d5f01414e23c0
+2025/09/19 14:37:00  warn xattr{usr/local/share/fonts} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2025/09/19 14:37:00  warn xattr{/tmp/build-temp-3886628178/rootfs/usr/local/share/fonts} destination filesystem does not support xattrs, further warnings will be suppressed
+2025/09/19 14:37:01  info unpack layer: sha256:c68abb20ed862332db019abdf58f70e5405ef87503ae99432412cead5abd2c96
+2025/09/19 14:37:01  info unpack layer: sha256:3a9d0be71e80595793e4c28afa63b8112c62ff6cc69e515d1d5edf5d02f0c4fc
+2025/09/19 14:37:02  info unpack layer: sha256:2fa4f7922c818690997c94aaee81cc588ef9eac15e512b1f50f46dd57cde38aa
+2025/09/19 14:37:03  info unpack layer: sha256:e034187c13dd3a4314524a0d0b968e2534d923787d386f07f6496d17840970de
+2025/09/19 14:37:03  info unpack layer: sha256:b74a53802e3bd9d5257504c5acd7856c9631826859de57f6f378328357488a8e
+2025/09/19 14:37:08  info unpack layer: sha256:7e90024914d57c47728e178afab27f217b561b43988ea2d70c76c3f193d2b970
+2025/09/19 14:37:10  info unpack layer: sha256:5864c67da543215258cedcfc0ceba9e38474fa3f3050f4e081d16e099364dce2
+2025/09/19 14:37:10  info unpack layer: sha256:d2c4fe438846469f48c2fb4b2375a74079bd7cbe58e9f820cd3bffc808f840f4
+2025/09/19 14:37:10  info unpack layer: sha256:654947e6196abd5ba61b926bf78c6ceafebd8f049ed7b3ca18c3ff0d812869d9
+2025/09/19 14:37:10  info unpack layer: sha256:6c77f18f17cd709bf98e6f1ef1ee7c1c4e89274ddb72c78d4795f232f31194a6
+2025/09/19 14:37:10  info unpack layer: sha256:ee541401930069f57fc7ea7b332194b147d2cc7821af75bfbc44b4d6b4bcc5ff
+INFO:    Creating SIF file...
+FATAL:   While making image from oci registry: error copying image out of cache: could not open temporary file for copy: failed to create temporary file: open /home/xpz5km/vcell_misc/tmp-copy-849871963: no such file or directory

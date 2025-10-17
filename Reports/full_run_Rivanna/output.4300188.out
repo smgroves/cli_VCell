@@ -1,0 +1,32 @@
+Tue Sep 30 14:15:27 EDT 2025
+Loading modules...
+Activate conda environment...
+To use the same local packages for both R and RStudio, do not set R_LIBS_USER in ~/.Renviron
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: python/3.11.4
+(required by: gdal/3.6.3)
+-------------------------------------------------------------------------------
+
+
+
+/home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model.omex
+/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model
+Convert reports.h5 to csvs
+Using default species list of length 37
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/cli_VCell/hdf5_converter_Rivanna.py", line 426, in <module>
+    convert_h5_to_csvs(dir_path=dir_path, model_name=model_name, sedml_name = sedml_name)
+  File "/sfs/gpfs/tardis/home/xpz5km/cli_VCell/hdf5_converter_Rivanna.py", line 85, in convert_h5_to_csvs
+    with h5py.File(f"{dir_path}/{file_name}", "r") as h5:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xpz5km/.conda/envs/vcell/lib/python3.11/site-packages/h5py/_hl/files.py", line 564, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xpz5km/.conda/envs/vcell/lib/python3.11/site-packages/h5py/_hl/files.py", line 238, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 56, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 57, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = '/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model/reports.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

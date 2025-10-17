@@ -1,0 +1,133 @@
+Fri May 3 14:25:27 EDT 2024
+Loading modules...
+/scratch/xpz5km/vcell_out/MaybeFixedResults
+Loading modules...
+To use your local R packages in RStudio, run:
+echo "R_LIBS_USER=~/R/goolf/4.3" > ~/.Renviron
+Finished loading modules...
+Activate conda environment...
+Convert reports.h5 to csvs
+/sfs/qumulo/qhome/xpz5km/cli_VCell/hdf5_converter_Rivanna.py:1: DeprecationWarning: 
+Pyarrow will become a required dependency of pandas in the next major release of pandas (pandas 3.0),
+(to allow more performant data types, such as the Arrow string type, and better interoperability with other libraries)
+but was not found to be installed on your system.
+If this would cause problems for you,
+please provide us feedback at https://github.com/pandas-dev/pandas/issues/54466
+        
+  import pandas as pd
+Using default species list of length 37
+_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv
+_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan
+6D array found, reading in parameter scan
+Haspini
+Haspina
+Plk1a
+H3
+pH3
+pKnl1
+pKnl1_Bub1a
+Bub1a
+H2A
+pH2A
+Bub1a_his
+Sgo1
+pH2A_Sgo1
+CPCi
+pH3_CPCi
+pH2A_Sgo1_CPCi
+pH2A_Sgo1_pH3_CPCi
+CPCa
+pH3_CPCa
+pH2A_Sgo1_CPCa
+pH2A_Sgo1_pH3_CPCa
+Plk1i
+Mps1i
+pMps1i
+Mps1a
+pMps1a
+Ndc80
+pNdc80
+Ndc80_Mps1i
+Ndc80_pMps1i
+pNdc80_Mps1i
+pNdc80_pMps1i
+Ndc80_Mps1a
+Ndc80_pMps1a
+pNdc80_Mps1a
+pNdc80_pMps1a
+Knl1
+Haspini
+Haspina
+Plk1a
+H3
+pH3
+pKnl1
+pKnl1_Bub1a
+Bub1a
+H2A
+pH2A
+Bub1a_his
+Sgo1
+pH2A_Sgo1
+CPCi
+pH3_CPCi
+pH2A_Sgo1_CPCi
+pH2A_Sgo1_pH3_CPCi
+CPCa
+pH3_CPCa
+pH2A_Sgo1_CPCa
+pH2A_Sgo1_pH3_CPCa
+Plk1i
+Mps1i
+pMps1i
+Mps1a
+pMps1a
+Ndc80
+pNdc80
+Ndc80_Mps1i
+Ndc80_pMps1i
+pNdc80_Mps1i
+pNdc80_pMps1i
+Ndc80_Mps1a
+Ndc80_pMps1a
+pNdc80_Mps1a
+pNdc80_pMps1a
+Knl1
+Haspini
+Haspina
+Plk1a
+H3
+pH3
+pKnl1
+pKnl1_Bub1a
+Bub1a
+H2A
+pH2A
+Bub1a_his
+Sgo1
+pH2A_Sgo1
+CPCi
+pH3_CPCi
+pH2A_Sgo1_CPCi
+pH2A_Sgo1_pH3_CPCi
+CPCa
+pH3_CPCa
+pH2A_Sgo1_CPCa
+pH2A_Sgo1_pH3_CPCa
+Plk1i
+Mps1i
+pMps1i
+Mps1a
+pMps1a
+Ndc80
+pNdc80
+Ndc80_Mps1i
+Ndc80_pMps1i
+pNdc80_Mps1i
+pNdc80_pMps1i
+Ndc80_Mps1a
+Ndc80_pMps1a
+pNdc80_Mps1a
+pNdc80_pMps1a
+Knl1
+Processing took  8.76147174835205  seconds

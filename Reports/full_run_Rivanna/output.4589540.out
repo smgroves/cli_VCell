@@ -1,0 +1,22 @@
+Mon Oct 13 13:36:15 EDT 2025
+Loading modules...
+Activate conda environment...
+To use the same local packages for both R and RStudio, do not set R_LIBS_USER in ~/.Renviron
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: python/3.11.4
+(required by: gdal/3.6.3)
+-------------------------------------------------------------------------------
+
+
+
+/home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model.omex
+/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model
+Convert reports.h5 to csvs
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/cli_VCell/hdf5_converter_Rivanna.py", line 391, in <module>
+    convert_h5_to_csvs_Logan_results(dir_path=dir_path, model_name=model_name, sedml_name = sedml_name)
+  File "/sfs/gpfs/tardis/home/xpz5km/cli_VCell/hdf5_converter_Rivanna.py", line 250, in convert_h5_to_csvs_Logan_results
+    default_species = h5[f"{sedml_name}.sedml"][f"report_{simulation_name}"].attrs["sedmlDataSetNames"]
+                      ^^
+UnboundLocalError: cannot access local variable 'h5' where it is not associated with a value

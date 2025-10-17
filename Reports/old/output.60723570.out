@@ -1,0 +1,624 @@
+Tue Apr 30 23:01:50 EDT 2024
+Loading modules...
+/scratch/xpz5km/vcell_in/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units.omex
+/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units
+mkdir: cannot create directory ‘/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units’: File exists
+Loading modules...
+To use your local R packages in RStudio, run:
+echo "R_LIBS_USER=~/R/goolf/4.3" > ~/.Renviron
+Finished loading modules...
+Activate conda environment...
+/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+Bus n/a: changing state UNSET → OPENING
+Bus n/a: changing state OPENING → AUTHENTICATING
+Bus n/a: changing state AUTHENTICATING → HELLO
+Sent message type=method_call sender=n/a destination=org.freedesktop.DBus path=/org/freedesktop/DBus interface=org.freedesktop.DBus member=Hello cookie=1 reply_cookie=0 signature=n/a error-name=n/a error-message=n/a
+Got message type=method_return sender=org.freedesktop.DBus destination=:1.294231 path=n/a interface=n/a member=n/a cookie=1 reply_cookie=1 signature=s error-name=n/a error-message=n/a
+Bus n/a: changing state HELLO → RUNNING
+Sent message type=method_call sender=n/a destination=org.freedesktop.timedate1 path=/org/freedesktop/timedate1 interface=org.freedesktop.DBus.Properties member=GetAll cookie=2 reply_cookie=0 signature=s error-name=n/a error-message=n/a
+Got message type=method_return sender=:1.294232 destination=:1.294231 path=n/a interface=n/a member=n/a cookie=24 reply_cookie=2 signature=a{sv} error-name=n/a error-message=n/a
+Bus n/a: changing state RUNNING → CLOSED
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ lemon::%||%()    masks purrr::%||%()
+✖ dplyr::combine() masks gridExtra::combine()
+✖ dplyr::filter()  masks stats::filter()
+✖ dplyr::lag()     masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+Using poppler version 20.11.0
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] TRUE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] TRUE
+
+[[14]]
+[1] TRUE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/plots"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/"
+[1] "CPCa"               "pH2A_Sgo1_CPCa"     "pH3_CPCa"          
+[4] "pH2A_Sgo1_pH3_CPCa" "CPCi"               "pH2A_Sgo1_CPCi"    
+[7] "pH3_CPCi"           "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH2A"               "pH2A_Sgo1"          "pH2A_Sgo1_CPCa"    
+[4] "pH2A_Sgo1_CPCi"     "pH2A_Sgo1_pH3_CPCi" "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH3"                "pH3_CPCa"           "pH3_CPCi"          
+[4] "pH2A_Sgo1_pH3_CPCa" "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Converting page 1 to CPC_plot_1.png... done!
+Converting page 1 to Mps1_plot_1.png... done!
+Converting page 1 to Haspin_Plk1_species_plot_1.png... done!
+Converting page 1 to pH3_species_plot_1.png... done!
+Converting page 1 to pH2A_species_plot_1.png... done!
+Converting page 1 to H2A & H3_plot_1.png... done!
+Converting page 1 to Bub1a_pKnl1_species_plot_1.png... done!
+total: 138.476 sec elapsed
+Warning messages:
+1: The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+2: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/plots/data' already exists
+3: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/plots/data' already exists
+4: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/plots/data' already exists
+5: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/plots/data' already exists
+6: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/plots/data' already exists
+7: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/plots/data' already exists
+8: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_10_16_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv/plots/data' already exists
+/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+Bus n/a: changing state UNSET → OPENING
+Bus n/a: changing state OPENING → AUTHENTICATING
+Bus n/a: changing state AUTHENTICATING → HELLO
+Sent message type=method_call sender=n/a destination=org.freedesktop.DBus path=/org/freedesktop/DBus interface=org.freedesktop.DBus member=Hello cookie=1 reply_cookie=0 signature=n/a error-name=n/a error-message=n/a
+Got message type=method_return sender=org.freedesktop.DBus destination=:1.294236 path=n/a interface=n/a member=n/a cookie=1 reply_cookie=1 signature=s error-name=n/a error-message=n/a
+Bus n/a: changing state HELLO → RUNNING
+Sent message type=method_call sender=n/a destination=org.freedesktop.timedate1 path=/org/freedesktop/timedate1 interface=org.freedesktop.DBus.Properties member=GetAll cookie=2 reply_cookie=0 signature=s error-name=n/a error-message=n/a
+Got message type=method_return sender=:1.294237 destination=:1.294236 path=n/a interface=n/a member=n/a cookie=24 reply_cookie=2 signature=a{sv} error-name=n/a error-message=n/a
+Bus n/a: changing state RUNNING → CLOSED
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ lemon::%||%()    masks purrr::%||%()
+✖ dplyr::combine() masks gridExtra::combine()
+✖ dplyr::filter()  masks stats::filter()
+✖ dplyr::lag()     masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+Using poppler version 20.11.0
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] TRUE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] TRUE
+
+[[14]]
+[1] TRUE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/plots"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/"
+[1] "CPCa"               "pH2A_Sgo1_CPCa"     "pH3_CPCa"          
+[4] "pH2A_Sgo1_pH3_CPCa" "CPCi"               "pH2A_Sgo1_CPCi"    
+[7] "pH3_CPCi"           "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH2A"               "pH2A_Sgo1"          "pH2A_Sgo1_CPCa"    
+[4] "pH2A_Sgo1_CPCi"     "pH2A_Sgo1_pH3_CPCi" "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH3"                "pH3_CPCa"           "pH3_CPCi"          
+[4] "pH2A_Sgo1_pH3_CPCa" "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Converting page 1 to CPC_plot_1.png... done!
+Converting page 1 to Mps1_plot_1.png... done!
+Converting page 1 to Haspin_Plk1_species_plot_1.png... done!
+Converting page 1 to pH3_species_plot_1.png... done!
+Converting page 1 to pH2A_species_plot_1.png... done!
+Converting page 1 to H2A & H3_plot_1.png... done!
+Converting page 1 to Bub1a_pKnl1_species_plot_1.png... done!
+total: 124.12 sec elapsed
+Warning messages:
+1: The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+2: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/plots/data' already exists
+3: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/plots/data' already exists
+4: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/plots/data' already exists
+5: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/plots/data' already exists
+6: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/plots/data' already exists
+7: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan0/plots/data' already exists
+/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+Bus n/a: changing state UNSET → OPENING
+Bus n/a: changing state OPENING → AUTHENTICATING
+Bus n/a: changing state AUTHENTICATING → HELLO
+Sent message type=method_call sender=n/a destination=org.freedesktop.DBus path=/org/freedesktop/DBus interface=org.freedesktop.DBus member=Hello cookie=1 reply_cookie=0 signature=n/a error-name=n/a error-message=n/a
+Got message type=method_return sender=org.freedesktop.DBus destination=:1.294246 path=n/a interface=n/a member=n/a cookie=1 reply_cookie=1 signature=s error-name=n/a error-message=n/a
+Bus n/a: changing state HELLO → RUNNING
+Sent message type=method_call sender=n/a destination=org.freedesktop.timedate1 path=/org/freedesktop/timedate1 interface=org.freedesktop.DBus.Properties member=GetAll cookie=2 reply_cookie=0 signature=s error-name=n/a error-message=n/a
+Got message type=method_return sender=:1.294247 destination=:1.294246 path=n/a interface=n/a member=n/a cookie=24 reply_cookie=2 signature=a{sv} error-name=n/a error-message=n/a
+Bus n/a: changing state RUNNING → CLOSED
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ lemon::%||%()    masks purrr::%||%()
+✖ dplyr::combine() masks gridExtra::combine()
+✖ dplyr::filter()  masks stats::filter()
+✖ dplyr::lag()     masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+Using poppler version 20.11.0
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] TRUE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] TRUE
+
+[[14]]
+[1] TRUE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/plots"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/"
+[1] "CPCa"               "pH2A_Sgo1_CPCa"     "pH3_CPCa"          
+[4] "pH2A_Sgo1_pH3_CPCa" "CPCi"               "pH2A_Sgo1_CPCi"    
+[7] "pH3_CPCi"           "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH2A"               "pH2A_Sgo1"          "pH2A_Sgo1_CPCa"    
+[4] "pH2A_Sgo1_CPCi"     "pH2A_Sgo1_pH3_CPCi" "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH3"                "pH3_CPCa"           "pH3_CPCi"          
+[4] "pH2A_Sgo1_pH3_CPCa" "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Converting page 1 to CPC_plot_1.png... done!
+Converting page 1 to Mps1_plot_1.png... done!
+Converting page 1 to Haspin_Plk1_species_plot_1.png... done!
+Converting page 1 to pH3_species_plot_1.png... done!
+Converting page 1 to pH2A_species_plot_1.png... done!
+Converting page 1 to H2A & H3_plot_1.png... done!
+Converting page 1 to Bub1a_pKnl1_species_plot_1.png... done!
+total: 126.69 sec elapsed
+Warning messages:
+1: The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+2: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/plots/data' already exists
+3: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/plots/data' already exists
+4: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/plots/data' already exists
+5: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/plots/data' already exists
+6: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/plots/data' already exists
+7: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan1/plots/data' already exists
+/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/
+
+Attaching package: ‘lemon’
+
+The following object is masked from ‘package:purrr’:
+
+    %||%
+
+Bus n/a: changing state UNSET → OPENING
+Bus n/a: changing state OPENING → AUTHENTICATING
+Bus n/a: changing state AUTHENTICATING → HELLO
+Sent message type=method_call sender=n/a destination=org.freedesktop.DBus path=/org/freedesktop/DBus interface=org.freedesktop.DBus member=Hello cookie=1 reply_cookie=0 signature=n/a error-name=n/a error-message=n/a
+Got message type=method_return sender=org.freedesktop.DBus destination=:1.294250 path=n/a interface=n/a member=n/a cookie=1 reply_cookie=1 signature=s error-name=n/a error-message=n/a
+Bus n/a: changing state HELLO → RUNNING
+Sent message type=method_call sender=n/a destination=org.freedesktop.timedate1 path=/org/freedesktop/timedate1 interface=org.freedesktop.DBus.Properties member=GetAll cookie=2 reply_cookie=0 signature=s error-name=n/a error-message=n/a
+Got message type=method_return sender=:1.294251 destination=:1.294250 path=n/a interface=n/a member=n/a cookie=24 reply_cookie=2 signature=a{sv} error-name=n/a error-message=n/a
+Bus n/a: changing state RUNNING → CLOSED
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.4     ✔ readr     2.1.5
+✔ forcats   1.0.0     ✔ tibble    3.2.1
+✔ lubridate 1.9.3     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ lemon::%||%()    masks purrr::%||%()
+✖ dplyr::combine() masks gridExtra::combine()
+✖ dplyr::filter()  masks stats::filter()
+✖ dplyr::lag()     masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+The following object is masked from ‘package:purrr’:
+
+    discard
+
+Using poppler version 20.11.0
+[[1]]
+[1] TRUE
+
+[[2]]
+[1] TRUE
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] TRUE
+
+[[5]]
+[1] TRUE
+
+[[6]]
+[1] TRUE
+
+[[7]]
+[1] TRUE
+
+[[8]]
+[1] TRUE
+
+[[9]]
+[1] TRUE
+
+[[10]]
+[1] TRUE
+
+[[11]]
+[1] TRUE
+
+[[12]]
+[1] TRUE
+
+[[13]]
+[1] TRUE
+
+[[14]]
+[1] TRUE
+
+[[15]]
+[1] TRUE
+
+[[16]]
+[1] TRUE
+
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/plots"
+[1] "/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/"
+[1] "CPCa"               "pH2A_Sgo1_CPCa"     "pH3_CPCa"          
+[4] "pH2A_Sgo1_pH3_CPCa" "CPCi"               "pH2A_Sgo1_CPCi"    
+[7] "pH3_CPCi"           "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH2A"               "pH2A_Sgo1"          "pH2A_Sgo1_CPCa"    
+[4] "pH2A_Sgo1_CPCi"     "pH2A_Sgo1_pH3_CPCi" "pH2A_Sgo1_pH3_CPCa"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] "pH3"                "pH3_CPCa"           "pH3_CPCi"          
+[4] "pH2A_Sgo1_pH3_CPCa" "pH2A_Sgo1_pH3_CPCi"
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+[1] TRUE
+Converting page 1 to CPC_plot_1.png... done!
+Converting page 1 to Mps1_plot_1.png... done!
+Converting page 1 to Haspin_Plk1_species_plot_1.png... done!
+Converting page 1 to pH3_species_plot_1.png... done!
+Converting page 1 to pH2A_species_plot_1.png... done!
+Converting page 1 to H2A & H3_plot_1.png... done!
+Converting page 1 to Bub1a_pKnl1_species_plot_1.png... done!
+total: 156.542 sec elapsed
+Warning messages:
+1: The `size` argument of `element_line()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead. 
+2: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/plots/data' already exists
+3: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/plots/data' already exists
+4: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/plots/data' already exists
+5: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/plots/data' already exists
+6: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/plots/data' already exists
+7: In dir.create(file.path(exportPath, "data")) :
+  '/scratch/xpz5km/vcell_out/_04_15_24_TEST_CPC_tensed_RefModel_128x64_to_omex_SBML_units/simulations/_11_27_23_tensed_RefModel_Mps1_phos_Plk1a_20Pac_transactiv_CPCi_scan_scan2/plots/data' already exists

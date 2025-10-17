@@ -1,0 +1,42 @@
+INFO:    Converting OCI blobs to SIF format
+INFO:    Starting build...
+Copying blob sha256:3597e1152b96c4201e51bfd07040f14124bf08b6e469d7a31a27c0139c1117b3
+Copying blob sha256:7f996d025ad8a9e04bd16e23be9b0909a51ac9609892698d1ce09236b548f9e8
+Copying blob sha256:828c1365039a657352c737a62d13e1932951b5658eb6bd9b9096ea9b73562453
+Copying blob sha256:25638a134118478447df57a474989e59eb4d4ed46a1b5179553609f172c301c8
+Copying blob sha256:52cb915ba69c6ab35520bea0607abf4265e243dcf8f7f4f80375496c5e82ee91
+Copying blob sha256:e30bef4dbea595ebc4cd9fa69ee2ee8411e2b7afd38f247f5efdddede77ae26a
+Copying blob sha256:7c5cf3c693161868277d3565226d51512153394e5f35c2d800e7a2eb9df861a1
+Copying blob sha256:83cfcc3d07fef1cd31fa4c15b3195b447b702508054b01ad9950f062a4b5ee81
+Copying blob sha256:16b2fdf394367aa2011eec4bdcb571430de35890b1e8d7f864d7796d6e354f71
+Copying blob sha256:c14800ff52253cc16073ef626f0ba4824f1c74ec903b81edd77798253d14905d
+Copying blob sha256:e6fac13697186637b9fa65fb90006cea993f12019b3a545a39b0dcb10b7528fc
+Copying blob sha256:241335fd151a95784abe599fdbee2ea66b4e724b2df5c8012a71eb864aac210e
+Copying blob sha256:cbb9788c1b8144cc04b566357422f5e42ab1eff94c28b22bcf64661c64c66134
+Copying blob sha256:65d4073a5419c630272683eee7871263503c739ac55f1b99489cbdcf12d37c99
+Copying blob sha256:7ecdc4d4d80737d96ab6474e5772463550f6e3e7c90e65c1ab07d13ae64df8ce
+Copying config sha256:305339e33e7be76127dafb861031562cc605dbbae77abf0f416893ba191a4c0e
+Writing manifest to image destination
+2025/10/10 13:54:50  info unpack layer: sha256:828c1365039a657352c737a62d13e1932951b5658eb6bd9b9096ea9b73562453
+2025/10/10 13:54:50  warn xattr{etc/gshadow} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2025/10/10 13:54:50  warn xattr{/tmp/build-temp-4206250179/rootfs/etc/gshadow} destination filesystem does not support xattrs, further warnings will be suppressed
+2025/10/10 13:54:51  info unpack layer: sha256:7f996d025ad8a9e04bd16e23be9b0909a51ac9609892698d1ce09236b548f9e8
+2025/10/10 13:54:52  info unpack layer: sha256:52cb915ba69c6ab35520bea0607abf4265e243dcf8f7f4f80375496c5e82ee91
+2025/10/10 13:54:52  warn xattr{etc/gshadow} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2025/10/10 13:54:52  warn xattr{/tmp/build-temp-4206250179/rootfs/etc/gshadow} destination filesystem does not support xattrs, further warnings will be suppressed
+2025/10/10 13:54:53  warn rootless{usr/lib/x86_64-linux-gnu/gstreamer1.0/gstreamer-1.0/gst-ptp-helper} ignoring (usually) harmless EPERM on setxattr "security.capability"
+2025/10/10 13:54:55  info unpack layer: sha256:e30bef4dbea595ebc4cd9fa69ee2ee8411e2b7afd38f247f5efdddede77ae26a
+2025/10/10 13:54:57  warn xattr{usr/local/share/fonts} ignoring ENOTSUP on setxattr "user.rootlesscontainers"
+2025/10/10 13:54:57  warn xattr{/tmp/build-temp-4206250179/rootfs/usr/local/share/fonts} destination filesystem does not support xattrs, further warnings will be suppressed
+2025/10/10 13:54:57  info unpack layer: sha256:3597e1152b96c4201e51bfd07040f14124bf08b6e469d7a31a27c0139c1117b3
+2025/10/10 13:54:57  info unpack layer: sha256:25638a134118478447df57a474989e59eb4d4ed46a1b5179553609f172c301c8
+2025/10/10 13:54:58  info unpack layer: sha256:7c5cf3c693161868277d3565226d51512153394e5f35c2d800e7a2eb9df861a1
+2025/10/10 13:54:59  info unpack layer: sha256:83cfcc3d07fef1cd31fa4c15b3195b447b702508054b01ad9950f062a4b5ee81
+2025/10/10 13:54:59  info unpack layer: sha256:16b2fdf394367aa2011eec4bdcb571430de35890b1e8d7f864d7796d6e354f71
+2025/10/10 13:55:05  info unpack layer: sha256:c14800ff52253cc16073ef626f0ba4824f1c74ec903b81edd77798253d14905d
+2025/10/10 13:55:07  info unpack layer: sha256:e6fac13697186637b9fa65fb90006cea993f12019b3a545a39b0dcb10b7528fc
+2025/10/10 13:55:07  info unpack layer: sha256:241335fd151a95784abe599fdbee2ea66b4e724b2df5c8012a71eb864aac210e
+2025/10/10 13:55:07  info unpack layer: sha256:cbb9788c1b8144cc04b566357422f5e42ab1eff94c28b22bcf64661c64c66134
+2025/10/10 13:55:07  info unpack layer: sha256:65d4073a5419c630272683eee7871263503c739ac55f1b99489cbdcf12d37c99
+2025/10/10 13:55:07  info unpack layer: sha256:7ecdc4d4d80737d96ab6474e5772463550f6e3e7c90e65c1ab07d13ae64df8ce
+INFO:    Creating SIF file...

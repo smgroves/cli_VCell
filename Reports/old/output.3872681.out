@@ -1,0 +1,32 @@
+Fri Sep 19 14:30:15 EDT 2025
+Loading modules...
+/scratch/xpz5km/vcell_out/MaybeFixedResults
+Loading modules...
+Lmod has detected the following error: The following module(s) are unknown:
+"anaconda"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "anaconda"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+To use the same local packages for both R and RStudio, do not set R_LIBS_USER in ~/.Renviron
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: python/3.11.4
+(required by: gdal/3.6.3)
+-------------------------------------------------------------------------------
+
+
+
+Finished loading modules...
+Activate conda environment...
+Convert reports.h5 to csvs
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/home/xpz5km/cli_VCell/hdf5_converter_Rivanna.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

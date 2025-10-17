@@ -1,0 +1,16 @@
+Thu Oct 16 13:42:21 EDT 2025
+Loading modules...
+Activate conda environment...
+To use the same local packages for both R and RStudio, do not set R_LIBS_USER in ~/.Renviron
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: python/3.11.4
+(required by: gdal/3.6.3)
+-------------------------------------------------------------------------------
+
+
+
+/home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model.omex
+/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model
+starting plots...
+/var/spool/slurm/slurmd/job4633093/slurm_script: line 53: syntax error: unexpected end of file
