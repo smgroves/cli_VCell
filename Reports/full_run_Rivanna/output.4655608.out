@@ -1,0 +1,134 @@
+Fri Oct 17 10:45:51 EDT 2025
+Loading modules...
+/home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model_v2.omex
+/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model_v2
+mkdir: cannot create directory ‘/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model_v2’: File exists
+Run VCell model through CLI...
+docker: Command recieved::<-i /home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model_v2.omex -o /project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model_v2>
+<-i>
+Default case selected
+VCell shall execute <biosimulations -i /home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model_v2.omex -o /project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model_v2>
+2025-10-17T14:45:53.511108125Z main WARN The use of package scanning to locate Log4j plugins is deprecated.
+Please remove the `packages` attribute from your configuration file.
+See https://logging.apache.org/log4j/2.x/faq.html#package-scanning for details.
+ INFO (CLIStandalone:40) - Starting Vcell... []{}
+ INFO (BiosimulationsCommand:99) - Beginning execution []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ INFO (ExecutionJob:83) - Executing OMEX archive `_09_16_25_CPC_metacentric_relaxed_model_v2.omex` []{}
+-----------------------------------------------------------------------------------------------------
+ INFO (SedmlJob:116) - Initializing and Pre-Processing SedML document: _09_16_25_CPC_metacentric_relaxed_model_v2.sedml []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ INFO (SedmlJob:173) - Successfully loaded and translated SED-ML file: _09_16_25_CPC_metacentric_relaxed_model_v2.sedml.
+	> 10 models
+	> 10 simulations
+		> 10 Uniform Time Course simulations
+	> 13 tasks
+	> 10 outputs
+		> 10 Reports
+	> Has Math Overrides
+	> Has Parameter Scans []{}
+ INFO (SedmlJob:215) - Building solvers and starting simulation of all tasks...  []{}
+-----------------------------------------------------------------------------------------------------
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ INFO (SBMLImporter:4099) - ignoring missing interior point for domain membrane_chromosome0_void1 with domainType chromosome_void_membrane []{}
+ INFO (SBMLImporter:4099) - ignoring missing interior point for domain membrane_chromosome0_void2 with domainType chromosome_void_membrane []{}
+ INFO (SBMLImporter:966) - adjustExpression(): replacing '___TIME_SYMBOL___' with 't' in (Dapp * alpha * pow((1.0 * (1.0 / (___TIME_SYMBOL___ + t_step))),(1.0 - (1.0 * alpha)))) []{}
+2025-10-17T14:45:56.708501184Z main WARN The Logger cbit.vcell.model.Kinetics was created with the message factory org.apache.logging.log4j.message.ReusableMessageFactory@756aadfc and is now requested with a null message factory (defaults to org.apache.logging.log4j.message.ParameterizedMessageFactory), which may create log events with unexpected formatting.
+2025-10-17T14:45:56.950200064Z main WARN The Logger cbit.vcell.mapping.AbstractMathMapping was created with the message factory org.apache.logging.log4j.message.ReusableMessageFactory@756aadfc and is now requested with a null message factory (defaults to org.apache.logging.log4j.message.ParameterizedMessageFactory), which may create log events with unexpected formatting.
+ INFO (SEDMLImporter:192) - Task (id='tsk_0_0') is compatible, solver match found in ontology: 'KISAO:0000615' matched to SundialsPDE []{}
+ INFO (SEDMLImporter:192) - Task (id='tsk_0_1') is compatible, solver match found in ontology: 'KISAO:0000615' matched to SundialsPDE []{}
+ INFO (SEDMLImporter:192) - Task (id='tsk_0_2') is compatible, solver match found in ontology: 'KISAO:0000615' matched to SundialsPDE []{}
+ INFO (SEDMLImporter:192) - Task (id='tsk_0_3') is compatible, solver match found in ontology: 'KISAO:0000615' matched to SundialsPDE []{}
+ INFO (SEDMLImporter:192) - Task (id='tsk_0_4') is compatible, solver match found in ontology: 'KISAO:0000615' matched to SundialsPDE []{}
+ INFO (SEDMLImporter:192) - Task (id='tsk_0_5') is compatible, solver match found in ontology: 'KISAO:0000615' matched to SundialsPDE []{}
+ INFO (SEDMLImporter:192) - Task (id='tsk_0_6') is compatible, solver match found in ontology: 'KISAO:0000615' matched to SundialsPDE []{}
+ INFO (SEDMLImporter:192) - Task (id='tsk_0_7') is compatible, solver match found in ontology: 'KISAO:0000615' matched to SundialsPDE []{}
+ INFO (SEDMLImporter:192) - Task (id='tsk_0_8') is compatible, solver match found in ontology: 'KISAO:0000615' matched to SundialsPDE []{}
+ INFO (SEDMLImporter:192) - Task (id='tsk_0_9') is compatible, solver match found in ontology: 'KISAO:0000615' matched to SundialsPDE []{}
+{}
+{}
+{}
+{}
+{}
+{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:356) - Initializing simulation job SimID_1498949775_0_0 (tsk_0_0)... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:388) - Beginning Simulation... []{}
+ WARN (SolverHandler:399) - Solver results will not be compatible with CSV format.  []{}
+ INFO (SolverHandler:448) - Successful execution (5023.789s): Model '_09_16_25_CPC_metacentric_relaxed_model_v2__09_16_25_CPC_metacentric_relaxed_model_v2.sedml_Spatial' Task ' 09_16_25_metacentric_relaxed_model' ( 09_16_25_metacentric_relaxed_model). []{}
+ INFO (SolverHandler:513) - Processing spatial results of execution... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:356) - Initializing simulation job SimID_2106461264_0_0 (tsk_0_1)... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:388) - Beginning Simulation... []{}
+ WARN (SolverHandler:399) - Solver results will not be compatible with CSV format.  []{}
+ INFO (SolverHandler:448) - Successful execution (4755.942s): Model '_09_16_25_CPC_metacentric_relaxed_model_v2__09_16_25_CPC_metacentric_relaxed_model_v2.sedml_Spatial' Task '09_29_25_metacentric_relaxed_model_NMuMG' (09_29_25_metacentric_relaxed_model_NMuMG). []{}
+ INFO (SolverHandler:513) - Processing spatial results of execution... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:356) - Initializing simulation job SimID_1557005290_0_0 (tsk_0_2)... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:388) - Beginning Simulation... []{}
+ WARN (SolverHandler:399) - Solver results will not be compatible with CSV format.  []{}
+ INFO (SolverHandler:448) - Successful execution (4835.922s): Model '_09_16_25_CPC_metacentric_relaxed_model_v2__09_16_25_CPC_metacentric_relaxed_model_v2.sedml_Spatial' Task '09_29_25_metacentric_relaxed_model_4T1' (09_29_25_metacentric_relaxed_model_4T1). []{}
+ INFO (SolverHandler:513) - Processing spatial results of execution... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:356) - Initializing simulation job SimID_785353046_0_0 (tsk_0_3)... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:388) - Beginning Simulation... []{}
+ WARN (SolverHandler:399) - Solver results will not be compatible with CSV format.  []{}
+ INFO (SolverHandler:448) - Successful execution (4445.638s): Model '_09_16_25_CPC_metacentric_relaxed_model_v2__09_16_25_CPC_metacentric_relaxed_model_v2.sedml_Spatial' Task '09_29_25_metacentric_relaxed_model_HCC1395' (09_29_25_metacentric_relaxed_model_HCC1395). []{}
+ INFO (SolverHandler:513) - Processing spatial results of execution... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:356) - Initializing simulation job SimID_630725998_0_0 (tsk_0_4)... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:388) - Beginning Simulation... []{}
+ WARN (SolverHandler:399) - Solver results will not be compatible with CSV format.  []{}
+ INFO (SolverHandler:448) - Successful execution (5183.436s): Model '_09_16_25_CPC_metacentric_relaxed_model_v2__09_16_25_CPC_metacentric_relaxed_model_v2.sedml_Spatial' Task '09_30_25_metacentric_relaxed_model_HeLa_CPClow' (09_30_25_metacentric_relaxed_model_HeLa_CPClow). []{}
+ INFO (SolverHandler:513) - Processing spatial results of execution... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:356) - Initializing simulation job SimID_222589846_0_0 (tsk_0_6)... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:388) - Beginning Simulation... []{}
+ WARN (SolverHandler:399) - Solver results will not be compatible with CSV format.  []{}
+ INFO (SolverHandler:448) - Successful execution (5019.146s): Model '_09_16_25_CPC_metacentric_relaxed_model_v2__09_16_25_CPC_metacentric_relaxed_model_v2.sedml_Spatial' Task '09_30_25_metacentric_relaxed_model_HeLa_CPC_Sgo1low' (09_30_25_metacentric_relaxed_model_HeLa_CPC_Sgo1low). []{}
+ INFO (SolverHandler:513) - Processing spatial results of execution... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:356) - Initializing simulation job SimID_684791690_0_0 (tsk_0_8)... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:388) - Beginning Simulation... []{}
+ WARN (SolverHandler:399) - Solver results will not be compatible with CSV format.  []{}
+ INFO (SolverHandler:448) - Successful execution (5094.307s): Model '_09_16_25_CPC_metacentric_relaxed_model_v2__09_16_25_CPC_metacentric_relaxed_model_v2.sedml_Spatial' Task '09_30_25_metacentric_relaxed_model_HeLa_Sgo1low' (09_30_25_metacentric_relaxed_model_HeLa_Sgo1low). []{}
+ INFO (SolverHandler:513) - Processing spatial results of execution... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:356) - Initializing simulation job SimID_1835418409_0_0 (repTsk_0_5_0:0)... []{}
+-  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  --  -
+ INFO (SolverHandler:388) - Beginning Simulation... []{}
+[2025-10-17T20:46:07.012] error: *** JOB 4655608 ON udc-aw32-8c1 CANCELLED AT 2025-10-17T20:46:07 DUE TO TIME LIMIT ***

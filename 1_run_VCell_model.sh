@@ -23,7 +23,7 @@ module load miniforge
 # run simulation with VCell CLI on Rivanna
 # SCRATCH_DIRECTORY=/scratch/${USER}
 # ${SCRATCH_DIRECTORY}
-MODEL_NAME=_09_16_25_CPC_metacentric_relaxed_model
+MODEL_NAME=_09_16_25_CPC_metacentric_relaxed_model_v2_one_sim
 MODEL=${MODEL_NAME}.omex
 
 SEDML_NAME=$MODEL_NAME 

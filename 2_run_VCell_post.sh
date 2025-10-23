@@ -21,7 +21,7 @@ module load goolf R
 # run simulation with VCell CLI on Rivanna
 # SCRATCH_DIRECTORY=/scratch/${USER}
 # ${SCRATCH_DIRECTORY}
-MODEL_NAME=_09_16_25_CPC_metacentric_relaxed_model
+MODEL_NAME=_09_16_25_CPC_metacentric_relaxed_model_v2_one_sim
 MODEL=${MODEL_NAME}.omex
 
 SEDML_NAME=$MODEL_NAME 
@@ -43,10 +43,40 @@ echo $OUTPUT
 # Uses csvs in OUTPUT/{sim_name}/data folder to create plots in OUTPUT/{sim_name}/plots folder
     # if there are parameter scans, they will be in subfolders numerically
 echo "starting plots..."
-for SIM_NAME in ${OUTPUT}/simulations/*/ ; do
+
+# make sure OUTPUT is set earlier in your script
+SIM_BASE="${OUTPUT}/simulations"
+
+# quick sanity check (will exit with message if it's not present)
+if [ ! -d "$SIM_BASE" ]; then
+    echo "ERROR: simulations base directory not found: $SIM_BASE" >&2
+    echo "Check that OUTPUT is set correctly." >&2
+    exit 1
+fi
+
+# allow a glob that matches nothing to expand to nothing (instead of the literal pattern)
+shopt -s nullglob
+
+for SIM_PATH in "$SIM_BASE"/*/; do
+    # skip non-directories just in case
+    [ -d "$SIM_PATH" ] || continue
+
+    # strip trailing slash
+    SIM_DIR="${SIM_PATH%/}"
+
+    DATA="$SIM_DIR"
+    PLOTS="$SIM_DIR/plots_v2"
+
+    mkdir -p "$PLOTS"
+
+    echo "SIM_DIR = $SIM_DIR"
+    echo "DATA    = $DATA"
+    echo "PLOTS   = $PLOTS"
+
+    # quote everything to handle spaces
+    Rscript vcell_run_v3_CL.R "$SIM_DIR" "$DATA" "$PLOTS" -k "Relaxed"
+done
+
+# (optional) restore default behaviour
+shopt -u nullglob
 # SIM_NAME="/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model/simulations/_09_16_25_metacentric_relaxed_model/"
-    echo "$SIM_NAME"
-    DATA=${SIM_NAME}
-    PLOTS=${SIM_NAME}plots_v2
-    Rscript vcell_run_v3_CL.R $SIM_NAME $DATA $PLOTS -k "Relaxed" 
-# done

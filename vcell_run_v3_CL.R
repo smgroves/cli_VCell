@@ -148,7 +148,7 @@ save_plots(sim,
             tInit=0,
             tSpan=tSpan, #400 for relaxed to tense
             desiredInterval=desiredInterval,
-            cutoff=5, #for heatmap color bar
+            cutoff=10, #for heatmap color bar
             funcPath,
             importPath,
             exportPath,

@@ -1,0 +1,132 @@
+Fri Oct 17 10:35:34 EDT 2025
+Loading modules...
+/home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model_v2.omex
+/project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model_v2
+Run VCell model through CLI...
+docker: Command recieved::<-i /home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model_v2.omex -o /project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model_v2>
+<-i>
+Default case selected
+VCell shall execute <biosimulations -i /home/xpz5km/cli_VCell/vcell_in/_09_16_25_CPC_metacentric_relaxed_model_v2.omex -o /project/g_bme-janeslab/SarahG/VCELL_OUT/_09_16_25_CPC_metacentric_relaxed_model_v2>
+2025-10-17T14:35:38.015381043Z main WARN The use of package scanning to locate Log4j plugins is deprecated.
+Please remove the `packages` attribute from your configuration file.
+See https://logging.apache.org/log4j/2.x/faq.html#package-scanning for details.
+ INFO (CLIStandalone:40) - Starting Vcell... []{}
+ INFO (BiosimulationsCommand:99) - Beginning execution []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ INFO (ExecutionJob:83) - Executing OMEX archive `_09_16_25_CPC_metacentric_relaxed_model_v2.omex` []{}
+-----------------------------------------------------------------------------------------------------
+ INFO (SedmlJob:116) - Initializing and Pre-Processing SedML document: _09_16_25_CPC_metacentric_relaxed_model_v2.sedml []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ INFO (SedmlJob:173) - Successfully loaded and translated SED-ML file: _09_16_25_CPC_metacentric_relaxed_model_v2.sedml.
+	> 10 models
+	> 10 simulations
+		> 10 Uniform Time Course simulations
+	> 13 tasks
+	> 10 outputs
+		> 10 Reports
+	> Has Math Overrides
+	> Has Parameter Scans []{}
+ INFO (SedmlJob:215) - Building solvers and starting simulation of all tasks...  []{}
+-----------------------------------------------------------------------------------------------------
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ WARN (SEDMLReader:249) - Unexpected [Element: <notes [Namespace: http://sed-ml.org/sed-ml/level1/version2]/>] []{}
+ERROR (SolverHandler:327) - Unable to Parse SED-ML into Bio-Model, failed with err: Unable to initialize bioModel for the given selection
+Cannot invoke "org.jlibsedml.Model.getSourceURI()" because "mod" is null []{}
+java.lang.RuntimeException: Unable to initialize bioModel for the given selection
+Cannot invoke "org.jlibsedml.Model.getSourceURI()" because "mod" is null
+	at org.vcell.sedml.SEDMLImporter.getBioModels(SEDMLImporter.java:379) ~[vcell-core-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.SolverHandler.simulateAllTasks(SolverHandler.java:325) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.SedmlJob.runSimulations(SedmlJob.java:220) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.SedmlJob.simulateSedml(SedmlJob.java:200) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.ExecutionJob.executeSedmlDocument(ExecutionJob.java:146) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.ExecutionJob.executeArchive(ExecutionJob.java:127) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.ExecuteImpl.singleExecOmex(ExecuteImpl.java:240) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.ExecuteImpl.singleMode(ExecuteImpl.java:143) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.ExecuteImpl.singleMode(ExecuteImpl.java:161) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.commands.execution.BiosimulationsCommand.executeVCellBiosimulationsMode(BiosimulationsCommand.java:102) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.commands.execution.BiosimulationsCommand.call(BiosimulationsCommand.java:64) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.commands.execution.BiosimulationsCommand.call(BiosimulationsCommand.java:20) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at picocli.CommandLine.executeUserObject(CommandLine.java:1953) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine.access$1300(CommandLine.java:145) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2358) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2352) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2314) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2179) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2316) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine.execute(CommandLine.java:2078) [picocli-4.6.3.jar:4.6.3]
+	at org.vcell.cli.CLIStandalone.main(CLIStandalone.java:47) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "org.jlibsedml.Model.getSourceURI()" because "mod" is null
+	at org.jlibsedml.execution.ModelResolver.getModelString(ModelResolver.java:125) ~[vcell-core-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.sedml.SEDMLImporter.importModel(SEDMLImporter.java:934) ~[vcell-core-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.sedml.SEDMLImporter.getModelReference(SEDMLImporter.java:908) ~[vcell-core-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.sedml.SEDMLImporter.createBioModels(SEDMLImporter.java:849) ~[vcell-core-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.sedml.SEDMLImporter.getBioModels(SEDMLImporter.java:160) ~[vcell-core-0.0.1-SNAPSHOT.jar:?]
+	... 20 more
+ERROR (ExecutionJob:131) - SedML (@_09_16_25_CPC_metacentric_relaxed_model_v2.sedml) processing failed: []{}
+org.vcell.cli.exceptions.ExecutionException: Unable to initialize bioModel for the given selection
+Cannot invoke "org.jlibsedml.Model.getSourceURI()" because "mod" is nullCannot invoke "org.jlibsedml.Model.getSourceURI()" because "mod" is null
+	at org.vcell.cli.run.SedmlJob.runSimulations(SedmlJob.java:243) ~[vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.SedmlJob.simulateSedml(SedmlJob.java:200) ~[vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.ExecutionJob.executeSedmlDocument(ExecutionJob.java:146) ~[vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.ExecutionJob.executeArchive(ExecutionJob.java:127) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.ExecuteImpl.singleExecOmex(ExecuteImpl.java:240) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.ExecuteImpl.singleMode(ExecuteImpl.java:143) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.ExecuteImpl.singleMode(ExecuteImpl.java:161) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.commands.execution.BiosimulationsCommand.executeVCellBiosimulationsMode(BiosimulationsCommand.java:102) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.commands.execution.BiosimulationsCommand.call(BiosimulationsCommand.java:64) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.commands.execution.BiosimulationsCommand.call(BiosimulationsCommand.java:20) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at picocli.CommandLine.executeUserObject(CommandLine.java:1953) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine.access$1300(CommandLine.java:145) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2358) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2352) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2314) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2179) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2316) [picocli-4.6.3.jar:4.6.3]
+	at picocli.CommandLine.execute(CommandLine.java:2078) [picocli-4.6.3.jar:4.6.3]
+	at org.vcell.cli.CLIStandalone.main(CLIStandalone.java:47) [vcell-cli-0.0.1-SNAPSHOT.jar:?]
+Caused by: java.lang.RuntimeException: Unable to initialize bioModel for the given selection
+Cannot invoke "org.jlibsedml.Model.getSourceURI()" because "mod" is null
+	at org.vcell.sedml.SEDMLImporter.getBioModels(SEDMLImporter.java:379) ~[vcell-core-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.SolverHandler.simulateAllTasks(SolverHandler.java:325) ~[vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.SedmlJob.runSimulations(SedmlJob.java:220) ~[vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	... 18 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.jlibsedml.Model.getSourceURI()" because "mod" is null
+	at org.jlibsedml.execution.ModelResolver.getModelString(ModelResolver.java:125) ~[vcell-core-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.sedml.SEDMLImporter.importModel(SEDMLImporter.java:934) ~[vcell-core-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.sedml.SEDMLImporter.getModelReference(SEDMLImporter.java:908) ~[vcell-core-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.sedml.SEDMLImporter.createBioModels(SEDMLImporter.java:849) ~[vcell-core-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.sedml.SEDMLImporter.getBioModels(SEDMLImporter.java:160) ~[vcell-core-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.SolverHandler.simulateAllTasks(SolverHandler.java:325) ~[vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	at org.vcell.cli.run.SedmlJob.runSimulations(SedmlJob.java:220) ~[vcell-cli-0.0.1-SNAPSHOT.jar:?]
+	... 18 more
+ INFO (ExecutionJob:165) - Omex `_09_16_25_CPC_metacentric_relaxed_model_v2.omex` processing completed (0.726s) []{}
+ERROR (ExecutionJob:175) -  All sedml documents in this archive failed to execute []{}
+ERROR (BiosimulationsCommand:105) - Errors occurred during execution []{}
+ | Root(root) | OMEX_EXECUTE(_09_16_25_CPC_metacentric_relaxed_model_v2.omex) | SIMULATIONS_RUN(runSimulations) | **** Error: Unable to initialize bioModel for the given selection: Cannot invoke "org.jlibsedml.Model.getSourceURI()" because "mod" is null
+ | Root(root) | OMEX_EXECUTE(_09_16_25_CPC_metacentric_relaxed_model_v2.omex) | SIMULATIONS_RUN(runSimulations) | **** Error: 
